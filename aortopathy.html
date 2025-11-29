@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Echo Findings</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+
+        .heading {
+            background-color: #fff;
+            padding: 15px 20px;
+            margin: 10px 0;
+            cursor: pointer;
+            border-left: 4px solid #3498db;
+            transition: background-color 0.3s;
+            user-select: none;
+        }
+
+        .heading:hover {
+            background-color: #ecf0f1;
+        }
+
+        .heading.h1 {
+            font-size: 24px;
+            font-weight: bold;
+            border-left-color: #2c3e50;
+        }
+
+        .heading.h2 {
+            font-size: 20px;
+            font-weight: bold;
+            border-left-color: #3498db;
+            margin-left: 20px;
+        }
+
+        .heading.h3 {
+            font-size: 16px;
+            font-weight: bold;
+            border-left-color: #95a5a6;
+            margin-left: 40px;
+        }
+
+        .content {
+            display: none;
+            padding: 15px 20px;
+            background-color: #fff;
+            margin: 0 0 10px 0;
+            border-left: 4px solid #ecf0f1;
+        }
+
+        .content.h1-content {
+            margin-left: 0;
+        }
+
+        .content.h2-content {
+            margin-left: 20px;
+        }
+
+        .content.h3-content {
+            margin-left: 40px;
+        }
+
+        .arrow {
+            display: inline-block;
+            margin-right: 10px;
+            transition: transform 0.3s;
+        }
+
+        .heading.active .arrow {
+            transform: rotate(90deg);
+        }
+        
+        .block {
+            padding:6px; 
+            display:block; 
+            background-color:#F0F0F0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 style="text-align: center; color: #2c3e50;">Aortopathy</h1>
+
+        
+            <div class="heading h2" onclick="toggle(this)">
+                <span class="arrow">▶</span>New Finding of Dilated Aorta
+            </div>           
+            <div class="content h2-content">
+                <p>
+                    <i>All patients should have cardiovascular risks managed as appropriate.</i>
+                </p>
+
+                <div class="heading h3" onclick="toggle(this)">
+                    <span class="arrow">▶</span>Absolute diameter &lt;40mm (root or proximal ascending aorta)
+                </div>
+                    <div class="content h3-content">
+                        <p>
+                            <span class="block">
+                                <b>Age &gt;60: </b>
+                                <br>
+                                <span style="color:grey">
+                                    No routine follow-up
+                                </span>
+                            </span>
+                            <br>
+                            <span class="block">
+                                <b>Age &lt;60 with no features of underlying disease (see below): </b>
+                                <br>
+                                <span style="color:grey">
+                                    No routine follow-up
+                                </span>
+                            </span>
+                            <br>
+                            <span class="block">
+                                <b>Age &lt;60 with strong suspicion of underlying disease (see below): </b>
+                                <br>
+                                <span style="color:orange">
+                                    Routine cardiology referral
+                                </span>
+                            </span>
+                            <br>
+                            <i>
+                                Features of underlying disease:
+                                <br>
+                                <span style="color:grey">
+                                    - 1st degree family history of dissection at young age (&lt;70 years without hypertension, or &lt;60 years with hypertension)
+                                    <br>
+                                    - Bicuspid aortic valve
+                                    <br>
+                                    - Suspected genetic disposition (e.g. Marfan / Loeys-Dietz / Ehlers-Danlos)
+                                </span>
+                            </i>
+                        </p>
+                    </div>
+                
+                <div class="heading h3" onclick="toggle(this)">
+                    <span class="arrow">▶</span>Absolute diameter 41-49mm (root or proximal ascending aorta)
+                </div>
+                    <div class="content h3-content">
+                        <p>
+                            <span class="block">
+                                <b>Tricuspid or Bicuspid aortic valve (with no more than mild stenosis/regurgitation):</b>
+                                <br>
+                                <span style="color:orange">
+                                    Routine cardiology referral
+                                </span>
+                                <br>
+                                <span style="color:grey"><i>
+                                    (For baseline CT/MRI)</i>
+                                </span>
+                            </span>
+                            <br>
+                            <span class="block">
+                                <b>Genetic disposition (e.g. Marfan / Loeys-Dietz / Ehlers-Danlos):</b>
+                                <br>
+                                <span style="color:red">
+                                    Urgent cardiology referral
+                                </span>
+                                <br>
+                                <span style="color:grey"><i>
+                                    (For baseline CT/MRI and genetic testing)</i>
+                                </span>
+                                <br><br>
+                                <span style="color:red"><i>
+                                    Advise patient that if they develop chest pain - they should call 999 and attend their local emergency department immediately.</i>
+                                </span>
+                            </span>
+                        </p>
+                    </div>
+                
+                <div class="heading h3" onclick="toggle(this)">
+                    <span class="arrow">▶</span>Absolute diameter &gt;50mm (root or proximal ascending aorta)
+                </div>
+                    <div class="content h3-content">
+                        <p>
+                            <span class="block">
+                                <b>In all cases:</b>
+                                <br>
+                                <span style="color:red">
+                                    Urgent cardiology referral
+                                </span>
+                                <br>
+                                <span style="color:grey"><i>
+                                    (For baseline CT/MRI and consideration for surgery)</i>
+                                </span> 
+                                <br><br>
+                                <span style="color:red">
+                                    <i>
+                                    Advise patient that if they develop chest pain - they should call 999 and attend their local emergency department immediately.
+                                    </i>
+                                </span>
+                            </span>
+                        </p>
+                    </div>
+            </div>
+            
+            <div class="heading h2" onclick="toggle(this)">
+                <span class="arrow">▶</span>Follow-up for Known Aortopathy
+            </div>           
+            <div class="content h2-content">
+                <p>
+                    In most cases, follow-up for aortopathy should be cardiologist-led. 
+                    <br><br>
+                    <span class="block">
+                            A brief/general overview of surveillance for those eligible for surgery (but not requiring immediate intervention) is as follows:
+                            <br><br>1. Baseline echo and cross-sectional imaging (CT/MRI)
+                            <br><br>2. After 1 year, either:
+                            <br>- a. Repeat echo (If baseline echo images are adequate and no suspected hereditary cause), or
+                            <br>- b. CT/MRI (If baseline echo images inadequate and/or suspected hereditary cause)
+                            <br><br>
+                            Ongoing surveillance is based on progression over the 1-year period.
+                    </span>
+                </p>
+
+                <div class="heading h3" onclick="toggle(this)">
+                    <span class="arrow">▶</span>Tricuspid aortic valve (no suspected/known hereditary cause)
+                </div>
+                    <div class="content h3-content">
+                        <p>
+                            <span class="block">
+                                <b>Absolute diameter 41-44mm, stable at 1 year:</b>
+                                <br>
+                                <span style="color:green">
+                                    Repeat echo every 5 years
+                                </span>
+                            </span>
+                            <br>
+                            <span class="block">
+                                <b>Absolute diameter 45-49mm, stable at 1 year:</b>
+                                <br>
+                                <span style="color:green">
+                                    Repeat echo every 1 year
+                                    <br>
+                                    Repeat CT/MRI every 2 years
+                                </span>
+                            </span>
+                            <br>
+                            <span class="block">
+                                <b>Absolute diameter 50-54mm and/or significant growth: </b>
+                                <br>
+                                <span style="color:green">
+                                    Repeat CT/MRI every 1 year
+                                </span>
+                            </span>
+                        </p>
+                    </div>
+                
+                <div class="heading h3" onclick="toggle(this)">
+                    <span class="arrow">▶</span>Bicuspid aortic valve (no suspected/known hereditary cause)
+                </div>
+                    <div class="content h3-content">
+                        <p>
+                            <span class="block">
+                                <b>Absolute diameter 41-44mm, stable at 1 year:</b>
+                                <br>
+                                <span style="color:green">
+                                    - Repeat echo every 1 year
+                                    <br>
+                                    - Repeat CT/MRI every 2 years
+                                </span>
+                            </span>
+                            <br>
+                            <span class="block">
+                                <b>Absolute diameter 45-52mm and/or significant growth: </b>
+                                <br>
+                                <span style="color:green">
+                                    - Repeat CT/MRI every 1 year
+                                </span>
+                            </span>
+                        </p>
+                    </div>
+                
+                <div class="heading h3" onclick="toggle(this)">
+                    <span class="arrow">▶</span>Hereditary thoracic aortic disease (Marfan, Loeys-Dietz, Ehlers-danlos etc)
+                </div>
+                    <div class="content h3-content">
+                        <p>
+                            <span class="block">
+                                <b>Marfan Syndrome:</b>
+                                <br>
+                                Absolute diameter &lt;45mm:
+                                <span style="color:green">
+                                    <br>Repeat CT/MRI every 2 years
+                                </span>
+                                <br><br>  
+                                Absolute diameter &gt;45mm:
+                                <span style="color:green">
+                                    <br>Repeat CT/MRI every 1 year
+                                </span>  
+                            </span>
+                            <br>
+                            <span class="block">
+                                <b>Ehlers-Danlos:</b>
+                                <br>
+                                vEDS with completely normal vasculature:
+                                <span style="color:green">
+                                    <br>Repeat CT/MRI every 3-5 years
+                                </span>
+                                <br><br>  
+                                vEDS with any abnormal vasculature:
+                                <span style="color:green">
+                                    <br>Repeat CT/MRI every 1 year
+                                </span>
+                            </span>
+                            <br>
+                            <span class="block">
+                                <b>Loeys-Dietz:</b>
+                                <br>
+                                In all cases:
+                                <span style="color:green">
+                                    <br>- Repeat head-to-pelvis CT/MRI every 1 year
+                                </span>
+                            </span>
+                            <br>
+                            <span class="block">
+                                <b>Turner Syndrome:</b>
+                                <br>
+                                Aorta Size Index (ASI) &lt;20mm/m2:
+                                <span style="color:green">
+                                    <br>- Repeat CT/MRI every 5 years
+                                </span>
+                                <br><br>  
+                                Aorta Size Index (ASI) 20-23mm/m2:
+                                <span style="color:green">
+                                    <br>Repeat CT/MRI every 2 years
+                                </span>
+                                <br><br>  
+                                Aorta Size Index (ASI) &gt;23mm/m2 and/or additional risk factors:
+                                <span style="color:green">
+                                    <br>Repeat CT/MRI every 1 year
+                                </span>
+                            </span>
+                        </p>
+                    </div>
+            </div>
+    
+
+    <script>
+        function toggle(element) {
+            const content = element.nextElementSibling;
+            
+            if (content.style.display === 'block') {
+                content.style.display = 'none';
+                element.classList.remove('active');
+            } else {
+                content.style.display = 'block';
+                element.classList.add('active');
+            }
+        }
+    </script>
+</body>
+</html>
