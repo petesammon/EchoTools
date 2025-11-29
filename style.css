@@ -1,0 +1,238 @@
+:root {
+    --pico-font-size: 100%;
+    
+    /* Claude.ai inspired color scheme */
+    --bg-primary: #1a1a1a;
+    --bg-secondary: #2d2d2d;
+    --bg-tertiary: #3a3a3a;
+    --text-primary: #e8e8e8;
+    --text-secondary: #b8b8b8;
+    --accent-primary: #6e88b1;
+    --accent-hover: #6e88b1;
+    --border-color: #404040;
+}
+
+html, body {
+    height: 100%;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', sans-serif;
+}
+
+main {
+    height: calc(100% - 100px);
+    background-color: var(--bg-primary);
+}
+
+button {
+    margin: 10px 0;
+    float: right;
+    background-color: var(--accent-primary);
+    color: var(--bg-primary);
+    border: none;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: var(--accent-hover);
+}
+
+section {
+    height: 100%;
+    overflow: hidden;
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+}
+
+th {
+    font-weight: bold;
+    color: var(--text-primary);
+}
+
+td {
+    color: var(--text-secondary);
+}
+
+#results div {
+    clear: both;
+    height: calc(100% - 140px);
+    overflow: scroll;
+    background-color: var(--bg-secondary);
+}
+
+#options > div {
+    height: calc(100% - 140px);
+    overflow: scroll;
+    background-color: var(--bg-secondary);
+}
+
+#report,
+#output textarea{
+    height: calc(100% - 140px);
+    background-color: var(--bg-tertiary);
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+}
+
+#help {
+    cursor: pointer;
+    color: var(--accent-primary);
+}
+
+#help:hover {
+    color: var(--accent-hover);
+}
+
+#example code {
+    display: block;
+    white-space: pre;
+    user-select: all;
+    height: 300px;
+    overflow: scroll;
+    background-color: var(--bg-tertiary);
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+}
+
+.output {
+    white-space: break-spaces;
+    color: var(--text-secondary);
+}
+
+h3 {
+    font-size: 1.2rem;
+    color: var(--text-primary);
+}
+
+body {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.heading {
+    padding: 15px 20px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    user-select: none;
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+}
+
+.heading:hover {
+    background-color: var(--bg-tertiary);
+}
+
+.heading.h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--text-primary);
+}
+
+.heading.h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    color: var(--text-primary);
+}
+
+.heading.h3 {
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 40px;
+    color: var(--text-primary);
+}
+
+.content {
+    display: none;
+    padding: 15px 20px;
+    margin: 0 0 10px 0;
+    background-color: var(--bg-secondary);
+    color: var(--text-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+}
+
+.content.h1-content {
+    margin-left: 0;
+}
+
+.content.h2-content {
+    margin-left: 20px;
+}
+
+.content.h3-content {
+    margin-left: 40px;
+}
+
+.arrow {
+    display: inline-block;
+    margin-right: 10px;
+    transition: transform 0.3s;
+    color: var(--accent-primary);
+}
+
+.heading.active .arrow {
+    transform: rotate(90deg);
+}
+
+.block {
+    padding: 6px; 
+    display: block;
+    color: var(--text-secondary);
+    background-color: #3a3a3a;  /* Light grey background for contrast - alternatives, 4a4a4a, 252525, 353535*/
+    border-radius: 4px;  /* Optional: adds rounded corners */
+}
+
+/* Additional styling for inputs and form elements */
+input, textarea, select {
+    background-color: var(--bg-tertiary);
+    color: var(--text-primary);
+    border: 1px solid var(--border-color);
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: var(--accent-primary);
+    outline: none;
+}
+
+/* Scrollbar styling for webkit browsers */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--bg-secondary);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--border-color);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--accent-primary);
+}
+
+/* Hyperlink styling */
+a {
+    color: var(--accent-primary);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: var(--accent-hover);
+    text-decoration: underline;
+}
+
+a:visited {
+    color: var(--accent-primary);
+}
+
+a:active {
+    color: var(--text-primary);
+}
