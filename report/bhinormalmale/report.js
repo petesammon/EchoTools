@@ -1954,6 +1954,11 @@ jQuery(document).ready(function () {
             $("#options").hide();
             $("#output").show();
 
+            $("#back").prop("disabled", false).on("click", function () {
+                $("#output").hide();
+                $("#options").show();
+            });
+            
             $("#copy").prop("disabled", false).on("click", function () {
                 const text = $("#output textarea").val();
                 navigator.clipboard.writeText(text);
