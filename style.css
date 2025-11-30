@@ -237,7 +237,6 @@ a:active {
     color: var(--text-primary);
 }
 
-/* Home button styling */
 .home-button {
     display: flex;
     align-items: center;
