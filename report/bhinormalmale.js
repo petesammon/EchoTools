@@ -653,83 +653,6 @@ const options = [
             Operator: {
                 title: "Operator:",
 		custom: true, 
-                options: [
-                    {
-                        "label": "Pete",
-                        "title": "Pete Sammon",
-                        default: true,
-                    },
-                    {
-                        "label": "(free text)",
-                        "title": "",
-                    },
-                ],
-            },
-            Reviewer: {
-                title: "Reviewed by:",
-		custom: true, 
-                options: [
-                    {
-                        "label": "Bex",
-                        "title": "Rebecca Fairweather",
-                    },
-                    {
-                        "label": "Cass",
-                        "title": "Cassandra Hammond",
-                    },
-                    {
-                        "label": "Emma",
-                        "title": "Emma Paine",
-                    },
-                    {
-                        "label": "Gui",
-                        "title": "Gui Rego",
-                    },
-                    {
-                        "label": "Helen",
-                        "title": "Helen Mallon",
-                    },
-                    {
-                        "label": "Isabel",
-                        "title": "Isabel Ribeiro",
-                    },
-                    {
-                        "label": "Jance",
-                        "title": "Jance Manalo",
-                    },
-                    {
-                        "label": "Joana",
-                        "title": "Joana Timoteo",
-                    },
-                    {
-                        "label": "Joao",
-                        "title": "Joao Pereira",
-                    },
-                    {
-                        "label": "Marie",
-                        "title": "Marie Meader",
-                    },
-                    {
-                        "label": "Martin",
-                        "title": "Martin Nelson",
-                    },
-                    {
-                        "label": "Phil",
-                        "title": "Philip Veacock",
-                    },
-                    {
-                        "label": "Ruth",
-                        "title": "Ruth Tier",
-                    },
-                    {
-                        "label": "Sarah",
-                        "title": "Sarah Fairbairn",
-                    },
-                    {
-                        "label": "(free text)",
-                        "title": "",
-                    },
-                ],
             },
             TechnicalQualilty: {
                 title: "Technical quality:",
@@ -1628,8 +1551,6 @@ const outputTemplate = Handlebars.compile(
 
 Performed on: {{Machine}}
 Operator: {{Operator}}
-{{#if Reviewer ~}}Reviewed by: {{Reviewer}}
-{{/if~}}
 Technical Quality: {{TechnicalQualilty}}
 ECG: {{ECG}}
 Height: {{Height}}, Weight: {{Weight}}, BSA: {{BSA}}
