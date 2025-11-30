@@ -1,0 +1,89 @@
+:root {
+    --pico-font-size: 100%;
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden;
+}
+
+main {
+    height: calc(100% - 100px);
+}
+
+button {
+    margin: 10px 0;
+    float: right;
+}
+
+section {
+    height: 100%;
+    overflow: hidden;
+}
+
+th {
+    font-weight: bold;
+}
+
+#results div {
+    clear: both;
+    height: calc(100% - 140px);
+    overflow: scroll;
+}
+
+#options > div {
+    height: calc(100% - 140px);
+    overflow: scroll;
+}
+
+#report,
+#output textarea{
+    height: calc(100% - 140px);
+}
+
+#help {
+    cursor: pointer;
+}
+
+#help:hover {
+    color: var(--pico-primary-background);
+}
+
+#example code {
+    display: block;
+    white-space: pre;
+    user-select: all;
+    height: 300px;
+    overflow: scroll;
+}
+
+.output {
+    white-space: break-spaces;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+/* Home button styling */
+.home-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    transition: background-color 0.3s;
+}
+
+.home-button:hover {
+    background-color: var(--bg-tertiary);
+    text-decoration: none;
+}
+
+.home-icon {
+    width: 18px;
+    height: 18px;
+    color: var(--text-primary);
+}
