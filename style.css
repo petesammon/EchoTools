@@ -238,7 +238,11 @@ a:active {
 }
 
 .home-button {
-    display: flex;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: inline-flex;
     align-items: center;
     justify-content: center;
     gap: 8px;
@@ -247,7 +251,6 @@ a:active {
     border: 1px solid var(--border-color);
     border-radius: 8px;
     transition: background-color 0.3s;
-    width: 100px;
 }
 
 .home-button:hover {
