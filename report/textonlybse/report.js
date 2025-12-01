@@ -3,7 +3,7 @@
 const parseUKDate = (dateString) => {
     const splitDate = dateString.split('/');
     return new Date(splitDate[2], splitDate[1] - 1, splitDate[0]);
-}
+};
 
 const calculations = {
     Age: (metrics) => {
@@ -19,7 +19,7 @@ const calculations = {
     WeightRounded: (metrics) => {
         return metrics.Weight ? Math.round(metrics.Weight) : "N/A";
     }
-}
+};
 
 // Contains the options for the dropdowns
 const options = [
@@ -117,7 +117,35 @@ const options = [
             LVSF: {
                 title: "",
                 custom: true,
-                default: "- Normal left ventricular systolic function.",
+                options: [
+                    {
+                        "label": "Normal systolic function",
+                        "title": "Normal left ventricular systolic function",
+                        default: true,
+                    },
+                    {
+                        "label": "Mildly impaired systolic function",
+                        "title": "Mildly impaired left ventricular systolic function",
+                    },
+                    {
+                        "label": "Moderately impaired systolic function",
+                        "title": "Moderately impaired left ventricular systolic function",
+                    },
+                    {
+                        "label": "Severely impaired systolic function",
+                        "title": "Severely impaired left ventricular systolic function",
+                    },
+                    {
+                        "label": "Impaired systolic function",
+                        "title": "Impaired left ventricular systolic function",
+                    },
+                    {
+                        "label": "(free text)",
+                        "title": "",
+                    },
+                ],
+                enableSummary: true,
+                summaryDefault: true,
             },
             LVH: {
                 title: "",
@@ -145,6 +173,8 @@ const options = [
                         "title": "",
                     },
                 ],
+                enableSummary: true,
+                summaryDefault: true,
             },
             LVD: {
                 title: "",
@@ -172,6 +202,8 @@ const options = [
                         title: "",
                     },
                 ],
+                enableSummary: true,
+                summaryDefault: true,
             },
             Diastology: {
                 title: "",
@@ -195,6 +227,8 @@ const options = [
                         "title": "",
                     },
                 ],
+                enableSummary: true,
+                summaryDefault: true,
             },
             LAP: {
                 title: "",
@@ -222,6 +256,8 @@ const options = [
                         title: "",
                     },
                 ],
+                enableSummary: true,
+                summaryDefault: false,
             },
         },
     },
@@ -269,6 +305,8 @@ const options = [
                         title: "",
                     },
                 ],
+                enableSummary: true,
+                summaryDefault: false,
             },
             MR: {
                 title: "",
@@ -296,6 +334,8 @@ const options = [
                         title: "",
                     },
                 ],
+                enableSummary: true,
+                summaryDefault: false,
             },
         },
     },
@@ -347,6 +387,8 @@ const options = [
                         title: "",
                     },
                 ],
+                enableSummary: true,
+                summaryDefault: false,
             },
             AR: {
                 title: "",
@@ -378,6 +420,8 @@ const options = [
                         title: "",
                     },
                 ],
+                enableSummary: true,
+                summaryDefault: false,
             },
         },
     },
@@ -401,7 +445,9 @@ const options = [
                         label: "(free text)",
                         title: "",
                     },
-                ]
+                ],
+                enableSummary: true,
+                summaryDefault: true,
             },
             RVFr: {
                 title: "",
@@ -420,7 +466,9 @@ const options = [
                         label: "(free text)",
                         title: "",
                     },
-                ]
+                ],
+                enableSummary: true,
+                summaryDefault: true,
             },
             RVH: {
                 title: "",
@@ -439,7 +487,9 @@ const options = [
                         label: "(free text)",
                         title: "",
                     },
-                ]
+                ],
+                enableSummary: true,
+                summaryDefault: false,
             },
             RVD: {
                 title: "",
@@ -458,7 +508,9 @@ const options = [
                         label: "(free text)",
                         title: "",
                     },
-                ]
+                ],
+                enableSummary: true,
+                summaryDefault: true,
             },
         },
     },
@@ -506,6 +558,8 @@ const options = [
                         title: "",
                     },
                 ],
+                enableSummary: true,
+                summaryDefault: false,
             },
             TR: {
                 title: "",
@@ -533,6 +587,8 @@ const options = [
                         title: "",
                     },
                 ],
+                enableSummary: true,
+                summaryDefault: false,
             },
         },
     },
@@ -580,6 +636,8 @@ const options = [
                         title: "",
                     },
                 ],
+                enableSummary: true,
+                summaryDefault: false,
             },
             PR: {
                 title: "",
@@ -607,6 +665,8 @@ const options = [
                         title: "",
                     },
                 ],
+                enableSummary: true,
+                summaryDefault: false,
             },
             PVN: {
                 title: "",
@@ -657,6 +717,8 @@ const options = [
                         title: "",
                     },
                 ],
+                enableSummary: true,
+                summaryDefault: false,
             },
         },
     },
@@ -689,6 +751,8 @@ const options = [
                         title: "",
                     },
                 ],
+                enableSummary: true,
+                summaryDefault: false,
             },
             DescAo: {
                 title: "",
@@ -704,6 +768,8 @@ const options = [
                         title: "",
                     },
                 ],
+                enableSummary: true,
+                summaryDefault: false,
             },
         },
     },
@@ -783,6 +849,8 @@ const options = [
                         title: "",
                     },
                 ],
+                enableSummary: true,
+                summaryDefault: false,
             },
             PASP: {
                 title: "PASP =",
@@ -813,6 +881,8 @@ const options = [
                         title: "",
                     },
                 ],
+                enableSummary: true,
+                summaryDefault: false,
             },
             PEff: {
                 title: "Pericardial Effusion",
@@ -832,6 +902,8 @@ const options = [
                         title: "",
                     },
                 ],
+                enableSummary: true,
+                summaryDefault: false,
             },
         },
     },
@@ -841,17 +913,18 @@ const options = [
             Summary: {
                 title: "",
                 custom: true,
-                default: "Normal left ventricular systolic function with no hypertrophy or dilatation.\nNormal diastolic function for age.\nNormal right ventricular function and size.\nNo significant valvular abnormalities.",
+                large: true,
+                default: "No significant valvular abnormalities",
             },
         },
     },
-]
+];
 
 // Register a helper to round to 2dp with trailing 0s
 // i.e 1.7 -> 1.70
 Handlebars.registerHelper('2dp', function (num) {
     return num && typeof num === 'number' ? num.toFixed(2) : "N/A";
-})
+});
 
 // The template for the output
 const outputTemplate = Handlebars.compile(
@@ -886,37 +959,67 @@ Miscellaneous:
 Summary:
 {{Summary}}
 
-`, {noEscape: true})
-
-
+`, {noEscape: true});
 
 jQuery(document).ready(function () {
     $("section").hide();
     $("#options").show();
     
-    const metrics = {}
+    const metrics = {};
 
+    function updateSummary() {
+    const summaryParts = [];
+    
+    for (const section of options) {
+        for (const key in section.params) {
+            const option = section.params[key];
+            if (option.enableSummary) {
+                const checkbox = $(`#${key}-summary`);
+                if (checkbox.length && checkbox.is(':checked')) {
+                    // Get the current value from metrics
+                    if (metrics[key] && metrics[key].trim()) {
+                        summaryParts.push(metrics[key]);
+                    }
+                }
+            }
+        }
+    }
+    
+    // Update the Summary textarea
+    const summaryTextarea = $('#Summary textarea');
+    if (summaryTextarea.length) {
+        summaryTextarea.val(summaryParts.join('\n'));
+        summaryTextarea.trigger('change');
+    }
+}
+    
     for (const k in options) {
-        $("#options > div").append(`<h3>${options[k].title}</h3>`)
+        $("#options > div").append(`
+    <h3>${options[k].title}</h3>
+    <h4><span></span><span>Summary</span></h4>
+`);
 
         for (const key in options[k].params) {
-            const option = options[k].params[key]
+            const option = options[k].params[key];
             const $option = $(`<div id="${key}">
-                    <label for="${key}">${option.title ?? key}</label>
-                    <div class="grid">
-                        ` + (option.options ? `
-                        <div>
-                            <select>
-                                <option selected disabled value="" >Select...</option>
-                                ` + option.options.map(option => `<option ${option.default ? 'selected="selected"' : ''} title="${option.title}" value="${key}-${option.label.toLowerCase().replace(" ", "-")}">${option.label}</option>`).join("") + `
-                            </select>
-                        </div>
-                        ` : '') + `
-                        ${option.custom ? '<textarea></textarea>' : ''}
-                    </div>
-                </div>`)
+    <div>
+        <label for="${key}">${option.title ?? key}</label>
+        ` + (option.options ? `
+        <select>
+            <option selected disabled value="" >Select...</option>
+            ` + option.options.map(option => `<option ${option.default ? 'selected="selected"' : ''} title="${option.title}" value="${key}-${option.label.toLowerCase().replace(" ", "-")}">${option.label}</option>`).join("") + `
+        </select>
+        ` : '') + `
+        ${option.custom ? `<textarea class="${option.large ? 'large' : ''}"></textarea>` : ''}
+    </div>
+    ` + (option.enableSummary ? `
+    <div class="summary-checkbox-container">
+        <input type="checkbox" id="${key}-summary" ${option.summaryDefault ? 'checked' : ''} />
+    </div>
+    ` : '') + `
+</div>`);
 
-            $("#options > div").append($option)
+            $("#options > div").append($option);
 
             $("textarea", $option).on("paste", (e) => {
                 let paste = (e.originalEvent.clipboardData || window.clipboardData).getData('text');
@@ -930,45 +1033,54 @@ jQuery(document).ready(function () {
 
                 const newText = currentText.slice(0, selectionStart) + paste + currentText.slice(selectionEnd);
 
-                $(e.currentTarget).val(newText)
-                $(e.currentTarget).trigger("change")
-                return false
-            })
+                $(e.currentTarget).val(newText);
+                $(e.currentTarget).trigger("change");
+                return false;
+            });
 
-            const df = option.options ? option.options.find(option => option.default) : ''
+            const df = option.options ? option.options.find(option => option.default) : '';
             if (df) {
-                metrics[key] = df.title
-                $(".output", $option).html(df.title)
+                metrics[key] = df.title;
+                $(".output", $option).html(df.title);
             }
             
             if (!option.options && option.default) {
-                metrics[key] = option.default
-                $("textarea", $option).val(option.default)
+                metrics[key] = option.default;
+                $("textarea", $option).val(option.default);
 }
 
             $("select, textarea", $option).on("change", function () {
-                const vals = []
+    const vals = [];
 
-                const selected = $("select", $option).find(":selected").attr("title")
-                if (selected) {
-                    vals.push(selected)
-                    $(".output", $option).html(selected)
-                }
-
-                if (option.custom) {
-                    const ta = $("textarea", $option).val()
-                    if (ta) {
-                        vals.push(ta)
-                    }
-                }
-
-                metrics[key] = vals.join(" ")
-            })
-        }
-
-        $("#options > div").append(`<hr />`)
+    const selected = $("select", $option).find(":selected").attr("title");
+    if (selected) {
+        vals.push(selected);
+        $(".output", $option).html(selected);
     }
 
+    if (option.custom) {
+        const ta = $("textarea", $option).val();
+        if (ta) {
+            vals.push(ta);
+        }
+    }
+
+    metrics[key] = vals.join(" ");
+    updateSummary();
+});
+
+if (option.enableSummary) {
+    $(`#${key}-summary`, $option).on('change', function() {
+        updateSummary();
+    });
+}
+        }
+        
+        $("#options > div").append(`<hr />`);
+    }
+        
+    updateSummary();
+    
     $("#generate").on("click", function () {
         $("#options").hide();
         $("#output").show();
@@ -982,9 +1094,9 @@ jQuery(document).ready(function () {
             const text = $("#output textarea").val();
             navigator.clipboard.writeText(text);
 
-            $("#copy").html("Copied!")
+            $("#copy").html("Copied!");
             setTimeout(() => {
-                $("#copy").html("Copy to clipboard")
+                $("#copy").html("Copy to clipboard");
             }, 1000);
         });
 

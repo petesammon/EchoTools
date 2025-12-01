@@ -1,5 +1,5 @@
 :root {
-    --pico-font-size: 100%;
+    --pico-font-size: 100%; /* Reduced from 100% */
 }
 
 html, body {
@@ -14,11 +14,14 @@ main {
 button {
     margin: 10px 0;
     float: right;
+    padding: 0.5rem 1rem; /* Compact button padding */
+    font-size: 0.9rem;
 }
 
 section {
     height: 100%;
     overflow: hidden;
+    padding: 1rem; /* Reduced section padding */
 }
 
 th {
@@ -34,11 +37,14 @@ th {
 #options > div {
     height: calc(100% - 140px);
     overflow: scroll;
+    padding-right: 0.5rem; /* Add some padding for scrollbar */
 }
 
 #report,
 #output textarea{
     height: calc(100% - 140px);
+    font-family: monospace;
+    white-space: pre-wrap;
 }
 
 #help {
@@ -61,8 +67,14 @@ th {
     white-space: break-spaces;
 }
 
+h2 {
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
 h3 {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    margin: 0.8rem 0 0.5rem 0; /* Reduced margins */
 }
 
 /* Home button styling */
@@ -87,3 +99,44 @@ h3 {
     height: 18px;
     color: var(--text-primary);
 }
+
+/* Compact form elements */
+label {
+    margin-bottom: 0.25rem;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+select {
+    padding: 0.4rem 0.6rem;
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Default compact textarea */
+textarea {
+    padding: 0.4rem 0.6rem;
+    font-size: 0.85rem;
+    min-height: 1.8rem;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+    resize: vertical;
+}
+
+/* Large textarea variant - add this class to textareas that need more space */
+textarea.large {
+    min-height: 8rem;
+}
+
+/* Grid spacing */
+.grid {
+    grid-gap: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Horizontal rules */
+hr {
+    margin: 1rem 0;
+    opacity: 0.3;
+}
+
