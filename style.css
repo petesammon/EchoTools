@@ -2,14 +2,20 @@
     --pico-font-size: 100%;
     
     /* Claude.ai inspired color scheme */
-    --bg-primary: #1a1a1a;
-    --bg-secondary: #2d2d2d;
-    --bg-tertiary: #3a3a3a;
-    --text-primary: #e8e8e8;
-    --text-secondary: #b8b8b8;
-    --accent-primary: #6e88b1;
-    --accent-hover: #6e88b1;
-    --border-color: #404040;
+    --bg-primary: #ffffff;
+    --bg-secondary: #ffffff;
+    --bg-tertiary: #d6d6d6;
+    --bg-h1: #ffffff;
+    --bg-h2: #f9f9f9;
+    --bg-h3: #ededed;
+    --bg-block: #ededed; 
+    /* #3a3a3a = Light grey background for contrast - alternatives, 4a4a4a, 252525, 353535*/
+    --text-primary: #1c1c1c;
+    --text-secondary: #1f1f1f;
+    --text-contrast: #e7e7e7;
+    --accent-primary: #101010;
+    --accent-hover: #6a6a6a;
+    --border-color: #cccccc;
 }
 
 html, body {
@@ -30,7 +36,7 @@ button {
     background-color: var(--accent-primary);
     color: var(--bg-primary);
     border: none;
-    transition: background-color 0.3s;
+    transition: background-color 0.1s;
 }
 
 button:hover {
@@ -106,15 +112,15 @@ h3 {
 
 body {
     max-width: 800px;
-    margin: 40px auto;
-    padding: 20px;
+    margin: 20px auto;
+    padding: 5px;
 }
 
 .heading {
-    padding: 15px 20px;
+    padding: 12px 10px;
     margin: 10px 0;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: background-color 0.1s;
     user-select: none;
     background-color: var(--bg-secondary);
     border: 1px solid var(--border-color);
@@ -122,55 +128,56 @@ body {
 }
 
 .heading:hover {
-    background-color: var(--bg-tertiary);
+    color: var(--accent-hover);
 }
 
 .heading.h1 {
     font-size: 24px;
     font-weight: bold;
     color: var(--text-primary);
+    background-color: var(--bg-h1);
 }
 
 .heading.h2 {
     font-size: 20px;
     font-weight: bold;
-    margin-left: 20px;
+    margin-left: 0;
     color: var(--text-primary);
+    background-color: var(--bg-h2);
 }
 
 .heading.h3 {
     font-size: 16px;
     font-weight: bold;
-    margin-left: 40px;
-    color: var(--text-primary);
+    margin-left: 10px;
+    color: var(--text-secondary);
+    background-color: var(--bg-h3);
 }
 
 .content {
     display: none;
-    padding: 15px 20px;
-    margin: 0 0 10px 0;
+    padding: 2px 15px 4px 15px;
+    margin: 0 0 0 0;
     background-color: var(--bg-secondary);
     color: var(--text-secondary);
-    border: 1px solid var(--border-color);
-    border-radius: 8px;
 }
 
 .content.h1-content {
-    margin-left: 0;
-}
-
-.content.h2-content {
     margin-left: 20px;
 }
 
+.content.h2-content {
+    margin-left: 0;
+}
+
 .content.h3-content {
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 .arrow {
     display: inline-block;
     margin-right: 10px;
-    transition: transform 0.3s;
+    transition: transform 0.1s;
     color: var(--accent-primary);
 }
 
@@ -182,8 +189,13 @@ body {
     padding: 6px; 
     display: block;
     color: var(--text-secondary);
-    background-color: #3a3a3a;  /* Light grey background for contrast - alternatives, 4a4a4a, 252525, 353535*/
+    background-color: var(--bg-block);
     border-radius: 4px;  /* Optional: adds rounded corners */
+    margin:6px;
+}
+
+.indent {
+    margin-left:0.5rem;
 }
 
 /* Additional styling for inputs and form elements */
@@ -226,7 +238,6 @@ a {
 
 a:hover {
     color: var(--accent-hover);
-    text-decoration: underline;
 }
 
 a:visited {
