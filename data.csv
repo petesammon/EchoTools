@@ -1,0 +1,229 @@
+﻿accession,attribute1,attribute2,attribute3,attribute4,attribute5,attribute6,attribute7,attribute7_link,attribute8
+1,ACHD,Any request that looks vaguely reasonable (inpatient),Inpatient - Priority,-,-,-,(BHI local policy - reference required),-,-
+2,ACHD,Any request that looks vaguely reasonable (outpatient),Outpatient,(as requested),-,-,(BHI local policy - reference required),-,-
+3,ACHD,Any request that looks vaguely reasonable (upcoming cardiac surgery),Specific slots,ACHD DOSA (Tues Thurs),-,-,(BHI local policy - reference required),-,-
+4,Aortic Regurgitation,Mild AR - Normal valve,Not Indicated,-,-,-,2024 BSE Poster - Valve Disease,-,-
+5,Aortic Regurgitation,Mild AR - BAV,Outpatient,3 years,1,1,2024 BSE Poster - Valve Disease,-,-
+6,Aortic Regurgitation,Mod AR - asymptomatic any valve morphology,Outpatient,12-24 months,1,1,2024 BSE Poster - Valve Disease,-,-
+7,Aortic Regurgitation,Sev AR - asymptomatic any valve morphology,Outpatient,6-12 months,1,1,2024 BSE Poster - Valve Disease,-,-
+8,Aortic Regurgitation,Any AR - Symptoms (syncope chest pain breathlesness pnd oedema etc),Escalate,Cardiology Review,-,-,2024 BSE Poster - Valve Disease,-,-
+9,Aortic Regurgitation,Any AR - LV dilatation and/or reducing EF,Escalate,Cardiology Review,-,-,2024 BSE Poster - Valve Disease,-,-
+10,Aortic Stenosis,Mild AS - Trileaflet AV,CDC,3 years,8,1,2024 BSE Poster - Valve Disease,-,-
+11,Aortic Stenosis,Mild AS - BAV,Outpatient,2 years,1,1,2024 BSE Poster - Valve Disease,-,-
+12,Aortic Stenosis,Mod AS - asymptomatic any valve morphology,Outpatient,12-24 months,1,1,2024 BSE Poster - Valve Disease,-,-
+13,Aortic Stenosis,Sev AS - asymptomatic any valve morphology,Outpatient,6 months,1,1,2024 BSE Poster - Valve Disease,-,-
+14,Aortic Stenosis,Any AS - Symptoms (syncope chest pain breathlesness pnd oedema etc),Escalate,Cardiology Review,-,-,2024 BSE Poster - Valve Disease,-,-
+15,Aortic Stenosis,Any AS - New LVSD (EF<55%) without other cause or reducing EF on sequential scans,Escalate,Cardiology Review,-,-,2024 BSE Poster - Valve Disease,-,-
+16,Aortic Stenosis,Any AS - Sclerotic aortic valve only no stenosis (trileaflet morphology),Not Indicated,-,-,-,(BHI local policy - reference required),-,-
+17,Aortic Valve Replacement,TAVI - post-procedure - baseline (pre-discharge),Inpatient - Priority,-,-,-,2024 BSE Poster - Valve Disease,-,-
+18,Aortic Valve Replacement,TAVI - post-procedure - first follow-up (post-discharge),Outpatient,6-8 weeks,-,-,2024 BSE Poster - Valve Disease,-,-
+19,Aortic Valve Replacement,TAVI - routine surveillance (depending on stability of parameters),CDC,12-24 months,8,1,2024 BSE Poster - Valve Disease,-,-
+20,Aortic Valve Replacement,Tissue AVR - post-op baseline (post-discharge),Outpatient,6-8 weeks,1,1,2024 BSE Poster - Valve Disease,-,-
+21,Aortic Valve Replacement,Tissue AVR - new/unproven valve type,Outpatient,12 months,1,1,2024 BSE Poster - Valve Disease,-,-
+22,Aortic Valve Replacement,Tissue AVR - proven valve type Age >60yrs,CDC,12 months (after 10 years),8,1,2024 BSE Poster - Valve Disease,-,-
+23,Aortic Valve Replacement,Tissue AVR - proven valve type Age <60yrs,CDC,12 months (after 5 years),8,1,2024 BSE Poster - Valve Disease,-,-
+24,Aortic Valve Replacement,Mechanical AVR - post-op baseline (post-discharge),Outpatient,6-8 weeks,1,1,2024 BSE Poster - Valve Disease,-,-
+25,Aortic Valve Replacement,Mechanical AVR - surveillance (not routinely required),Not Indicated,-,-,-,2024 BSE Poster - Valve Disease,-,-
+26,Aortic Valve Replacement,Any AVR/TAVI - Symptoms (syncope chest pain breathlesness pnd oedema etc),Escalate,Cardiology Review,-,-,2024 BSE Poster - Valve Disease,-,-
+27,Aortic Valve Replacement,Any AVR/TAVI - LV dilatation and/or reducing EF,Escalate,Cardiology Review,-,-,2024 BSE Poster - Valve Disease,-,-
+28,Aortic Valve Replacement,Any AVR/TAVI - New LVSD (EF<55%) without other cause or reducing EF on sequential scans,Escalate,Cardiology Review,-,-,2024 BSE Poster - Valve Disease,-,-
+29,Aortopathy,Screening suspected or proven genetic condition linked to aortopathy (Marfan Loeys-Dietz Ehlers Danlos etc),CDC,Routine,8,1,2024 BSE Poster - Outpatient Triage,-,-
+30,Aortopathy,Aorta 40-44mm growth <3mm/year (no heritable aortopathy),CDC,2-3 years,8,1,2024 ESC Aorta Guidelines,-,-
+31,Aortopathy,Aorta 40-44mm growth >3mm/year (no heritable aortopathy),CDC,12 months,8,1,2024 ESC Aorta Guidelines,-,-
+32,Aortopathy,Aorta 45-49mm growth <3mm/year (no heritable aortopathy),CDC,12 months,8,1,2024 ESC Aorta Guidelines,-,-
+33,Aortopathy,Aorta 45-49mm growth >3mm/year (no heritable aortopathy),CDC,6 months,8,1,2024 ESC Aorta Guidelines,-,-
+34,Aortopathy,Aorta 50-55mm (no heritable aortopathy),Escalate,6 months,1,1,2024 ESC Aorta Guidelines,-,-
+35,Aortopathy,Aorta 55mm or more (no heritable aortopathy),Escalate,Surgical Review,-,-,2024 ESC Aorta Guidelines,-,-
+36,Aortopathy,Marfan: Aorta <45mm no additional risk factors,CDC,12 months,8,1,2024 ESC Aorta Guidelines,-,-
+37,Aortopathy,Marfan: Aorta <45mm with additional risk factors,CDC,6 months,8,1,2024 ESC Aorta Guidelines,-,-
+38,Aortopathy,Marfan: Aorta 45mm or more no additional risk factors,Outpatient,6-12 months,1,1,2024 ESC Aorta Guidelines,-,-
+39,Aortopathy,Marfan: Aorta 45mm or more with additional risk factors,Escalate,Surgical Review,-,-,2024 ESC Aorta Guidelines,-,-
+40,Aortopathy,Marfan: Aorta 50mm or more no additional risk factors,Escalate,Surgical Review,-,-,2024 ESC Aorta Guidelines,-,-
+41,Aortopathy,Loeys-Dietz: regardless of aorta size,Outpatient,6-12 months,1,1,2024 ESC Aorta Guidelines,-,-
+47,Arrhythmia,VT or VF - no previous echo (inc. calculation of sudden cardiac death risk post-MI),Inpatient - Priority,-,-,-,2024 BSE Poster - Outpatient Triage,-,-
+42,Arrhythmia,Rhythm suspicious for structural heart disease (LBBB SVT Bigeminy etc),CDC,Routine,8,1,2024 BSE Poster - Outpatient Triage,-,-
+43,Arrhythmia,VE burden >10% (or lower when strong clinical suspicion of structural heart disease),CDC,Routine,8,1,2024 BSE Poster - Outpatient Triage,-,-
+44,Arrhythmia,To guide certain anti-arrhythmic medication decisions (e.g. flecainide),CDC,Routine,8,1,2024 BSE Poster - Outpatient Triage,-,-
+45,Arrhythmia,AF or Flutter - no previous echo (echo findings will change management),CDC,Routine,8,1,2024 BSE Poster - Outpatient Triage,-,-
+46,Arrhythmia,AF with previous echo - new heart failure symptoms,(see Heart Failure),-,-,-,BHI Inpatient Guidance Document,-,-
+48,Arrhythmia,AF with previous echo - no clinical change (or known severe LVSD),Not Indicated,-,-,-,2024 BSE Poster - Outpatient Triage,-,-
+49,Arrhythmia,Low burden or isolated ventricular ectopy no otherclinical suspicion of structural heart disease,Not Indicated,  ,-,-,2024 BSE Poster - Outpatient Triage,-,-
+50,Arrhythmia,Palpitations with no significant ECG /tape evidence (and no other findings that warrant echo in their own right),Not Indicated,-,-,-,2024 BSE Poster - Outpatient Triage,-,-
+51,Cardiac Arrest,Exertional VT/VF murmur or 1st degree relative with heritable cardiomyopathy,Inpatient - Priority,-,-,-,2024 BSE Poster - Inpatients,-,-
+52,Cardiac Mass,Routine surveillance following surgical removal of cardiac mass,Outpatient,12 months (may vary),1,1,2024 BSE Poster - Outpatient Triage,-,-
+53,Cardiac Mass,Cross-sectional imaging or other clinical findings highly suggestive of cardiac mass,Outpatient,Routine,5,5,2024 BSE Poster - Outpatient Triage,-,-
+54,Cardiac Mass,Other malignancy with known risk of cardiac involvement (e.g. renal cell carcinoma),Outpatient,Routine,1,1,2024 BSE Poster - Outpatient Triage,-,-
+55,Cardiac Mass,Post-op following removal of cardiac mass (pre-discharge),Inpatient - Priority,-,-,-,(BHI local policy - reference required),-,-
+56,Cardiomyopathy (Known),To guide specified treatment decisions (e.g. Mavacamtem septal ablation pacemaker etc),Outpatient,(as requested),-,-,2024 BSE Poster - Outpatient Triage,-,-
+57,Cardiomyopathy (Known),Established genetic or infiltrative cause of LVH - change in clinical status and/or last echo >12 months ago,Outpatient,Routine,1,1,2024 BSE Poster - Outpatient Triage,-,-
+58,Cardiomyopathy (Known),Significant change / progression (e.g. new NYHA Class III or IV symptoms) since last echo,Outpatient,Urgent (<2 weeks),5,5,2024 BSE Poster - Outpatient Triage,-,-
+59,Cardiomyopathy (Known),Request primarily for assessment of LV mass (Cardiac MRI much more appropriate),Not Indicated,-,-,-,2024 BSE Poster - Outpatient Triage,-,-
+60,Cardiomyopathy (Suspected),Screening for inherited cardiomyopathy - family history in first degree relative no other positive findings,CDC,Routine,8,1,2024 BSE Poster - Outpatient Triage,-,-
+61,Cardiomyopathy (Suspected),Suspected inherited cardiomyopathy - abnormal examination ECG and/or or other positive findings,Outpatient,Routine,1,1,(BHI local policy - reference required),-,-
+62,Cardiomyopathy (Suspected),Neuromuscular diseases with cardiac involvement (e.g. muscular dystrophies Friedreich’s ataxia mitochondrial myopathies),Outpatient,Routine,1,1,2024 BSE Poster - Outpatient Triage,-,-
+63,Cardiomyopathy (Suspected),Established genetic or infiltrative cause of LVH - no change in clinical status and/or echo <12 months ago,Not Indicated,-,-,-,2024 BSE Poster - Outpatient Triage,-,-
+64,Chest Pain,Suspected acute aortic dissection,Emergency,Emergency (Cardio Reg),-,-,2024 BSE Poster - Inpatients,-,-
+65,Chest Pain,Crescendo anigina (exertional increasing frequency and/or severity),Escalate,Cardiology Review,-,-,(BHI local policy - reference required),-,-
+66,Chest Pain,Confirmed STEMI (full-thickness infarct) - ECG changes and/or troponin rise (ideally 12hr post-PPCI),Inpatient - Priority,-,-,-,(BHI local policy - reference required),-,-
+67,Chest Pain,Confirmed NSTEMI (partial thickness infarct) - ECG changes and/or troponin rise,Inpatient - Routine,-,-,-,(BHI local policy - reference required),-,-
+68,Chest Pain,Typical angina (exertional with classic character/location) -  CTCA also requested,CDC,Routine,8,1,BHI SOP - Chest Pain Clinic Referral and Assessment,-,-
+69,Chest Pain,Typical angina (exertional with classic character/location) -  CTCA not requested,Not Indicated,-,-,-,BHI SOP - Chest Pain Clinic Referral and Assessment,-,-
+70,Chest Pain,Atypical angina (exertional but non-classic character/location) - no ECG changes no troponin rise,Not Indicated,-,-,-,BHI SOP - Chest Pain Clinic Referral and Assessment,-,-
+71,Chest Pain,Non-anginal pain (non-exertional and/or intermittent) - no ECG changes no troponin rise,Not Indicated,-,-,-,BHI SOP - Chest Pain Clinic Referral and Assessment,-,-
+72,ECMO,Assessment of ECMO cannula position,Inpatient - Priority,(normally ICU team),-,-,(BHI local policy - reference required),-,-
+73,Embolism - Major Vessel,Acute interruption of blood flow to a major peripheral or visceral artery,Outpatient,Routine,1,1,2024 BSE Poster - Outpatient Triage,-,-
+74,Embolism - Stroke / TIA,Age <55 - clinical suspicion of PFO (in addition - likley to require bubble sttudy with agitated saline contrast),Outpatient,Routine,1,1,2024 BSE Poster - Outpatient Triage,-,-
+75,Embolism - Stroke / TIA,Young age no other risk factors for stroke (high suspicion of cardiac embolic source),Outpatient,Routine,1,1,2024 BSE Poster - Outpatient Triage,-,-
+76,Embolism - Stroke / TIA,Old age and/or clear risk factors for stroke (low suspicion of cardiac embolic source),Not Indicated,-,-,-,(BHI local policy - reference required),-,-
+77,Fluid balance,Suspected cardiogenic shock despite euvolaemia/hypervolaemia,Escalate,Emergency (Cardio Reg),-,-,2024 BSE Poster - Inpatients,-,-
+78,Fluid balance,Fluid balance assessment: dialysis planning or anuric state with suspected structural heart disease,Inpatient - Priority,-,-,-,2024 BSE Poster - Inpatients,-,-
+79,Fluid balance,Fluid balance assessment: prior to comprehensive clinical assessment and initial management,Not Indicated,-,-,-,2024 BSE Poster - Inpatients,-,-
+80,Heart Failure (Known),Inpatient: Significant change in symptoms no echo in 12 months (BNP not required),Inpatient - Priority,-,-,-,(BHI local policy - reference required),-,-
+81,Heart Failure (Known),Outpatient: Significant change in symptoms (e.g. new NYHA Class III or IV) no echo in 12 months (BNP not required),Outpatient,Urgent (<2 weeks),5,5,2024 BSE Poster - Outpatient Triage,-,-
+82,Heart Failure (Known),To guide specified  treatment decisions (e.g. CRT-D PCI cardioversion),Outpatient,Routine,1,1,2024 BSE Poster - Outpatient Triage,-,-
+83,Heart Failure (Known),Assess sesponse to change in treatment (BNP not needed),Outpatient,3-4 months,1,1,(BHI local policy - reference required),-,-
+84,Heart Failure (Known),Routine repeat assessment in clinically stable patients,Not Indicated,-,-,-,2024 BSE Poster - Outpatient Triage,-,-
+85,Heart Failure (Suspected),Inpatient: Clinical signs + BNP >2000,Inpatient - Priority,-,-,-,(BHI local policy - reference required),-,-
+86,Heart Failure (Suspected),Inpatient: Clinical signs + BNP 400-2000,Inpatient - Routine,-,-,-,(BHI local policy - reference required),-,-
+87,Heart Failure (Suspected),Outpatient: Clinical signs + BNP 400-2000,CDC,Soon (2-6 weeks),8,3,2024 BSE Poster - Outpatient Triage,-,-
+88,Heart Failure (Suspected),Outpatient: Clinical signs + BNP >2000 (or NYHA Class III or IV symptoms),Outpatient,Urgent (<2 weeks),5,5,2024 BSE Poster - Outpatient Triage,-,-
+89,Heart Failure (Suspected),Clinical signs but BNP <400 (and no other cardiac findings to warrant echo for other reason),Not Indicated,-,-,-,2024 BSE Poster - Outpatient Triage,-,-
+90,Heart Failure (Suspected),Peripheral oedema only no other cardiac findings BNP not provided,Not Indicated,-,-,-,(BHI local policy - reference required),-,-
+91,Heart Failure (Suspected),Enlarged heart on chest x-ray no other cardiac findings BNP not provided,Not Indicated,-,-,-,(BHI local policy - reference required),-,-
+92,Heart Failure (Suspected),AF with uncontrolled ventricular rate (>120bpm),Not Indicated,(Rate control required),-,-,2024 BSE Poster - Outpatient Triage,-,-
+93,Hypertension,Elevated BP (>200/120mmHg) - with additional findings to suggest structural disease,Inpatient - Priority,-,-,-,(BHI local policy - reference required),-,-
+94,Hypertension,Elevated BP (>180/120mmHg) - with other findings to suggest LV systolic dysfunction (consider admission),Outpatient,Urgent (<2 weeks),5,5,2024 BSE Poster - Outpatient Triage,-,-
+95,Hypertension,Elevated BP (<180/120mmHg) - but other findings to suggest end organ damage,CDC,Routine,8,1,2024 BSE Poster - Outpatient Triage,-,-
+96,Hypertension,Elevated BP with otherwise normal cardiac examination and findings (ECG showing LVH only is not enough),Not Indicated,-,-,-,(BHI local policy - reference required),-,-
+97,Hypertension,Routine or repeat assessment - asymptomatic and no other concerning findings,Not Indicated,-,-,-,2024 BSE Poster - Outpatient Triage,-,-
+98,Infective Endocarditis (Known),Clinical suspicion of high-risk complications (fistula root abscess acute cardiac failure etc),Inpatient - Priority,-,-,-,2024 BSE Poster - Inpatients,-,-
+99,Infective Endocarditis (Known),Re-assesment for response to treatment (after >1 week of antibiotics),Inpatient - Routine,-,-,-,(BHI local policy - reference required),-,-
+100,Infective Endocarditis (Known),Repeat assessment in clinically stable patient with known vegetations,Not Indicated,-,-,-,2024 BSE Poster - Inpatients,-,-
+101,Infective Endocarditis (Suspected),1x major Duke criteria (Blood cultures) + 1x minor (fevers emobilc phenomena predisposition/IVDU),Inpatient - Priority,-,-,-,2024 BSE Poster - Inpatients,-,-
+102,Infective Endocarditis (Suspected),3x minor Duke criteria (fevers emobilic phenomena predisposition/IVDU),Inpatient - Routine,-,-,-,2024 BSE Poster - Inpatients,-,-
+103,Infective Endocarditis (Suspected),Inadequate Duke criteria (but with microbiology advice for TTE),Inpatient - Routine,-,-,-,(BHI local policy - reference required),-,-
+104,Infective Endocarditis (Suspected),Inadequate Duke criteria (and no microbiology advice for TTE),Not Indicated,-,-,-,(BHI local policy - reference required),-,-
+105,LV Thrombus,Suspected thrombus identified on standard TTE (contrast for LV opacification likely required),Inpatient - Priority,-,-,-,(BHI local policy - reference required),-,-
+106,LV Thrombus,Embolic event with known LV dysfunction (contrast for LV opacification likely required),Outpatient,Urgent (<2 weeks),5,5,2024 BSE Poster - Outpatient Triage,-,-
+107,LV Thrombus,Where echo will not help guide treatment (e.g. already fully anticoagulated for other reason),Not Indicated,-,-,-,2024 BSE Poster - Outpatient Triage,-,-
+108,Mitral Regurgitation,Mild MR - normal valve anatomy,Not Indicated,-,-,-,2024 BSE Poster - Valve Disease,-,-
+109,Mitral Regurgitation,Mild MR - abnormal valve (prolapse rheumatic other leaflet pathology),CDC,3-5 years,8,1,2024 BSE Poster - Valve Disease,-,-
+110,Mitral Regurgitation,Mod MR - asymptomatic,Outpatient,12-24 months,1,1,2024 BSE Poster - Valve Disease,-,-
+111,Mitral Regurgitation,Sev MR - asymptomatic,Outpatient,6 months,1,1,2024 BSE Poster - Valve Disease,-,-
+112,Mitral Regurgitation,Any MR - LV dilatation and/or EF<60%,Escalate,Cardiology Review,-,-,2024 BSE Poster - Valve Disease,-,-
+113,Mitral Regurgitation,Any MR - ePASP >50mmHg and/or RV impairment,Escalate,Cardiology Review,-,-,2024 BSE Poster - Valve Disease,-,-
+114,Mitral Regurgitation,Any MR - New atrial fibrillation,Escalate,Cardiology Review,-,-,2024 BSE Poster - Valve Disease,-,-
+115,Mitral Regurgitation,Any MR - LA volume (indexed) > 60ml/m2,Escalate,Cardiology Review,-,-,(BHI local policy - reference required),-,-
+116,Mitral Stenosis,Mild MS - normal valve anatomy (thickened/calcified only),Outpatient,3-5 years,1,1,2024 BSE Poster - Valve Disease,-,-
+117,Mitral Stenosis,Mild MS - abnormal valve (rheumatic parachute congenital etc),Outpatient,3-5 years (but may vary),1,1,2024 BSE Poster - Valve Disease,-,-
+118,Mitral Stenosis,Mod MS - asymptomatic,Outpatient,12-24 months,1,1,2024 BSE Poster - Valve Disease,-,-
+119,Mitral Stenosis,Sev MS - asymptomatic,Outpatient,6-12 months,1,1,2024 BSE Poster - Valve Disease,-,-
+120,Mitral Stenosis,Any MS - ePASP >50mmHg and/or RV impairment,Escalate,Cardiology Review,-,-,2024 BSE Poster - Valve Disease,-,-
+121,Mitral Stenosis,Any MS - New atrial fibrillation,Escalate,Cardiology Review,-,-,2024 BSE Poster - Valve Disease,-,-
+122,Mitral Stenosis,Any MS - TIA/stroke and/or dense spontaneous contrast in LV,Escalate,Cardiology Review,-,-,2024 BSE Poster - Valve Disease,-,-
+123,Mitral Valve Repair,TEER - Post-procedure baseline (pre-discharge),Inpatient - Priority,-,-,-,BHI Inpatient Guidance Document,-,-
+124,Mitral Valve Repair,TEER - Mild residual MR (or less) on initial scan,Outpatient,12 months,1,1,2024 BSE Poster - Valve Disease,-,-
+125,Mitral Valve Repair,TEER - Moderate residual MR on initial scan,Outpatient,12-24 months,1,1,2024 BSE Poster - Valve Disease,-,-
+126,Mitral Valve Repair,TEER - Severe residual MR on initial scan,Outpatient,6 months,1,1,2024 BSE Poster - Valve Disease,-,-
+127,Mitral Valve Repair,Surgical MV Repair - Post-operative baseline (post-discharge),Outpatient,6-8 weeks,1,1,2024 BSE Poster - Valve Disease,-,-
+128,Mitral Valve Repair,Surgical MV Repair - First surveillance scan,Outpatient,12 months,1,1,2024 BSE Poster - Valve Disease,-,-
+129,Mitral Valve Repair,Surgical MV Repair - Mild residual MR or less on most recent scan,CDC,2-3 years,8,1,2024 BSE Poster - Valve Disease,-,-
+130,Mitral Valve Repair,Surgical MV Repair - Moderate residual MR on most recent scan,Outpatient,12-24 months,1,1,2024 BSE Poster - Valve Disease,-,-
+131,Mitral Valve Repair,Surgical MV Repair - Severe residual MR on most recent scan,Outpatient,6 months,1,1,2024 BSE Poster - Valve Disease,-,-
+132,Mitral Valve Repair,Any MV Repair - LV dilatation and/or EF<60%,Escalate,Cardiology Review,-,-,2024 BSE Poster - Valve Disease,-,-
+133,Mitral Valve Repair,Any MV Repair - ePASP >50mmHg and/or RV impairment,Escalate,Cardiology Review,-,-,2024 BSE Poster - Valve Disease,-,-
+134,Mitral Valve Repair,Any MV Repair - New atrial fibrillation,Escalate,Cardiology Review,-,-,2024 BSE Poster - Valve Disease,-,-
+135,Mitral Valve Replacement,Any MVR - post-op baseline (post-discharge),Outpatient,6-8 weeks,1,1,2024 BSE Poster - Valve Disease,-,-
+136,Mitral Valve Replacement,Tissue MVR - proven valve type Age <60yrs,Outpatient,12 months (after 5 years),1,1,2024 BSE Poster - Valve Disease,-,-
+137,Mitral Valve Replacement,Mechanical MVR - surveillance (not routinely required),Not Indicated,-,-,-,2024 BSE Poster - Valve Disease,-,-
+138,Mitral Valve Replacement,Any MVR - LV dilatation and/or EF<60%,Escalate,Cardiology Review,-,-,2024 BSE Poster - Valve Disease,-,-
+139,Mitral Valve Replacement,Any MVR - ePASP >50mmHg and/or RV impairment,Escalate,Cardiology Review,-,-,2024 BSE Poster - Valve Disease,-,-
+140,Mitral Valve Replacement,Any MVR - New atrial fibrillation,Escalate,Cardiology Review,-,-,2024 BSE Poster - Valve Disease,-,-
+141,Murmur,Not previously investigated cardiac or respiratory symptoms,CDC,Routine,8,1,2024 BSE Poster - Outpatient Triage,-,-
+142,Murmur,Not previously investigated asymptomatic but with other features suggestive of structural heart disease,CDC,Routine,8,1,2024 BSE Poster - Outpatient Triage,-,-
+143,Murmur,Known valve disease (please see specific valve lesion guidance),(see Valve advice),-,-,-,(BHI local policy - reference required),-,-
+144,Murmur,Not previously investigated - other more pressing reason for echo,(see relevant advice),-,-,-,(BHI local policy - reference required),-,-
+145,Murmur,Recent MI nothing previously documented (? Ischaemic MR),Inpatient - Priority,-,-,-,2024 BSE Poster - Inpatients,-,-
+146,Murmur,Inpatient: symptomatic and/or other relevant examination findings - no previous echo,Inpatient - Routine,-,-,-,(BHI local policy - reference required),-,-
+147,Murmur,Previously normal echo - unchanged murmur asymptomatic,Not Indicated,-,-,-,2024 BSE Poster - Outpatient Triage,-,-
+148,Oncology,Periodic repeat assessment whilst on high cardiac risk medication (e.g. anthracyclines herceptin),Outpatient,(as requested),-,-,(BHI local policy - reference required),-,-
+149,Oncology,Initial scan prior to initiation of high cardiac risk medication (e.g. anthracyclines herceptin),Outpatient,Urgent (<2 weeks),7,5,(BHI local policy - reference required),-,-
+150,Oncology,Routine screening - Previous high-dose chest-directed radiotherapy alone (>30Gy),CDC,24 months,8,1,IGHG Cardiomyopathy Surveillance 2022,-,-
+151,Oncology,Routine screening - Previous high-dose anthracyclines (>250mg/m2) and/or mitoxantrone,CDC,24 months,8,1,IGHG Cardiomyopathy Surveillance 2022,-,-
+152,Oncology,Routine screening - Previous moderate-dose anthracyclines (>100mg/m2) and moderate-dose chest radiotherapy (>15Gy),CDC,24 months,8,1,IGHG Cardiomyopathy Surveillance 2022,-,-
+153,Oncology,Routine screening - Previous moderate-dose chest-directed radiotherapy alone (15-30Gy),CDC,5 years,8,1,IGHG Cardiomyopathy Surveillance 2022,-,-
+154,Oncology,Routine screening - Previous moderate-dose anthracyclines (100-250mg/m2),CDC,5 years,8,1,IGHG Cardiomyopathy Surveillance 2022,-,-
+155,Oncology,Routine screening - Previous low-dose anthracyclines (<100mg/m2) or low-dose chest radiotherapy (<15Gy),CDC,5 years,8,1,IGHG Cardiomyopathy Surveillance 2022,-,-
+156,Oncology,Pregnancy with previous anthracycline or chest-directed radiotherapy (any dose),Outpatient,First trimester,-,-,IGHG Cardiomyopathy Surveillance 2022,-,-
+157,Oncology,Pregnancy with previous LVSD secondary to anthracycline or chest-directed radiotherapy (any dose),Outpatient,(as requested),-,-,IGHG Cardiomyopathy Surveillance 2022,-,-
+158,Pacemaker,Consideration for CRT device need to define EF (? <40%),Outpatient,Routine,1,1,(BHI local policy - reference required),-,-
+159,Pericardial Effusion,Suspected cardiac tamponade or pyopericardium,Escalate,Emergency (Cardio Reg),-,-,2024 BSE Poster - Inpatients,-,-
+160,Pericardial Effusion,Re-assessment after drainage or after at least 1 week of medical therpay,Inpatient - Priority,-,-,-,(BHI local policy - reference required),-,-
+161,Pericardial Effusion,Suspected effusion significant systemic disease (heart failure cancer / oncology renal failure etc),Inpatient - Priority,-,-,-,(BHI local policy - reference required),-,-
+162,Pericardial Effusion,Suspected effusion recent discharge after cardiac surgery (chest pain breathlessness oedema leg swelling etc),Outpatient,Urgent (<2 weeks),5,5,(BHI local policy - reference required),-,-
+163,Pericardial Effusion,Known moderate or large effusion periodic reassessment (with or without change in clinical status),Outpatient,(as requested),-,-,2024 BSE Poster - Inpatients,-,-
+164,Pericardial Effusion,Known small effusion with recent change in clinical status,Outpatient,Routine,1,1,2024 BSE Poster - Inpatients,-,-
+165,Pericardial Effusion,Suspected constrictive cardiomyopathy,Outpatient,Routine,1,1,2024 BSE Poster - Inpatients,-,-
+166,Pericardial Effusion,Known small effusion no change in clinical status,Not Indicated,-,-,-,2024 BSE Poster - Inpatients,-,-
+167,Pericardial Effusion,Small effuision on other imaging - without concerning signs or symptoms (no suspicion of tamponade),Not Indicated,-,-,-,2024 BSE Poster - Inpatients,-,-
+168,Pericarditis,Suspected pericarditis (chest pain ECG bloods imaging rub) - with haemodynamic compromise,Inpatient - Priority,-,-,-,BHI SOP - Pericarditis,-,-
+169,Pericarditis,Suspected pericarditis (chest pain ECG bloods imaging rub) - without haemodynamic compromise,Outpatient,Routine,1,1,BHI SOP - Pericarditis,-,-
+170,Pericarditis,Pericarditic chest pain only - no additional findings and no haemodynamic compromise,Not Indicated,-,-,-,BHI SOP - Pericarditis,-,-
+171,Post-op,Surgical valve repair or replacement (see specific valve advice),(search for valve type),-,-,-,(BHI local policy - reference required),-,-
+172,Post-op,Any cardiac surgery with speicifc concers after eventful operation,Inpatient - Priority,-,-,-,(BHI local policy - reference required),-,-
+173,Post-op,ASD closure device (pre-discharge),Inpatient - Priority,-,-,-,(BHI local policy - reference required),-,-
+174,Post-op,Non-valve surgery (e.g. CABG) without eventful operation or specific concerns (routine post-op request),Not Indicated,-,-,-,(BHI local policy - reference required),-,-
+175,Pre-op (Cardiac Surgery),Any planned cardiac surgery (echo required within 6 months of planned operation date),Specific slots,DOSA (x4 daily),-,-,(BHI local policy - reference required),-,-
+176,Pre-op (Non-Cardiac Surgery),Major thoracic surgery (pneumectomy / lobectomy): no previous/recent echo,Specific slots,Pre-op (x1 daily),-,-,SOP - Pre-operative Echo,-,-
+177,Pre-op (Non-Cardiac Surgery),High surgical risk: impaired functional capacity (MET<4) and abnormal findings (ECG BNP exam),Specific slots,Pre-op (x1 daily),-,-,SOP - Pre-operative Echo,-,-
+178,Pre-op (Non-Cardiac Surgery),High surgical risk: ECG suggestive of LV dysfunction (LBBB LVH with strain Q waves) - no previous/recent echo,Specific slots,Pre-op (x1 daily),-,-,2024 BSE Poster - Outpatient Triage,-,-
+179,Pre-op (Non-Cardiac Surgery),High surgical risk: new murmur suggestive of AS or MR,Specific slots,Pre-op (x1 daily),-,-,SOP - Pre-operative Echo,-,-
+180,Pre-op (Non-Cardiac Surgery),New murmur suggestive of AS or MR - with signs and/or symptoms,Specific slots,Pre-op (x1 daily),-,-,SOP - Pre-operative Echo,-,-
+181,Pre-op (Non-Cardiac Surgery),Known AS with overdue follow-up (see Aortic Stenosis),Specific slots,Pre-op (x1 daily),-,-,SOP - Pre-operative Echo,-,-
+182,Pre-op (Non-Cardiac Surgery),Known Heart Failure (severe LVSD) - no echo within 6 months,Specific slots,Pre-op (x1 daily),-,-,SOP - Pre-operative Echo,-,-
+183,Pre-op (Non-Cardiac Surgery),Suspected Heart Failure (see Heart Failure guidance),Specific slots,Pre-op (x1 daily),-,-,SOP - Pre-operative Echo,-,-
+184,Pre-op (Non-Cardiac Surgery),High suspicion of PHT - with convincing clinical findings/reason,Specific slots,Pre-op (x1 daily),-,-,SOP - Pre-operative Echo,-,-
+185,Pre-op (Non-Cardiac Surgery),Known valve disease or mild/moderate LV dysfunction - without clinical change since last echo,Not Indicated,-,-,-,2024 BSE Poster - Outpatient Triage,-,-
+186,Pre-op (Non-Cardiac Surgery),Known arrhythmia (e.g. atrial fibrillation) - without evidence of heart failure or murmur,Not Indicated,-,-,-,2024 BSE Poster - Outpatient Triage,-,-
+187,Pre-op (Non-Cardiac Surgery),Routine non-targeted with no symptoms or signs of cardiovascular pathology,Not Indicated,-,-,-,SOP - Pre-operative Echo,-,-
+188,Pre-op (Non-Cardiac Surgery),Murmur asymptomatic age <60 and for low risk surgery,Not Indicated,-,-,-,SOP - Pre-operative Echo,-,-
+189,Pulmonary Disease,High suspicion of pulmonary hypertentsion (high burden PE other lung disease) - treatment dependent on echo findings,Inpatient - Routine,-,-,-,(BHI local policy - reference required),-,-
+190,Pulmonary Disease,PE with supected RV impairement and/or high suspicion of developing PHT,Outpatient,Routine,1,1,2024 BSE Poster - Outpatient Triage,-,-
+191,Pulmonary Disease,Persistent or positional oxygen desaturation (bubble-contrast echo to evaluate for a right to left shunt),Outpatient,Routine,1,1,2024 BSE Poster - Outpatient Triage,-,-
+192,Pulmonary Disease,Follow-up assessment for PHT - high probability (high burden PE abnormal CTEPH etc),Outpatient,3 months,1,1,2024 BSE Poster - Outpatient Triage,-,-
+193,Pulmonary Disease,Lung disease with suspected heart failure (see Heart Failure guidance),(see Heart Failure),-,-,-,2024 BSE Poster - Outpatient Triage,-,-
+194,Pulmonary Disease,Repeat assessment for PHT - low probability no risk factors for PHT or normal CTEPH,Not Indicated,-,-,-,2024 BSE Poster - Outpatient Triage,-,-
+195,Pulmonary Disease,Routine assessment for RV strain - low burden of PE and/or no findigns suggestive of heart failure,Not Indicated,-,-,-,(BHI local policy - reference required),-,-
+196,Pulmonary Regurgitation,Mild PR - normal valve,Not Indicated,-,-,-,2024 BSE Poster - Valve Disease,-,-
+197,Pulmonary Regurgitation,Mod PR - asymptomatic (abnormal valve RV impairement/dilatation dilated pulmonary artery or previous valvuloplasty),Outpatient,12-24 months,1,1,2024 BSE Poster - Valve Disease,-,-
+198,Pulmonary Regurgitation,Sev PR - asymptomatic,Outpatient,12 months,1,1,2024 BSE Poster - Valve Disease,-,-
+199,Pulmonary Regurgitation,Any PR - ePASP >50mmHg and/or RV impairment,Escalate,Cardiology Review,-,-,2024 BSE Poster - Valve Disease,-,-
+200,Pulmonary Regurgitation,Any PR - Symptoms (syncope chest pain breathlesness pnd oedema etc),Escalate,Cardiology Review,-,-,2024 BSE Poster - Valve Disease,-,-
+201,Pulmonary Stenosis,Mild PS (likely congenitally abnormal valve),Outpatient,3-5 years,1,1,2024 BSE Poster - Valve Disease,-,-
+202,Pulmonary Stenosis,Mod PS - asymptomatic (likely congenitally abnormal valve),Outpatient,12-24 months,1,1,2024 BSE Poster - Valve Disease,-,-
+203,Pulmonary Stenosis,Sev PS - asymptomatic,Outpatient,12 months,1,1,2024 BSE Poster - Valve Disease,-,-
+204,Pulmonary Stenosis,Any PS - ePASP >50mmHg and/or RV impairment,Escalate,Cardiology Review,-,-,2024 BSE Poster - Valve Disease,-,-
+205,Pulmonary Stenosis,Any PS - Symptoms (syncope chest pain breathlesness pnd oedema etc),Escalate,Cardiology Review,-,-,2024 BSE Poster - Valve Disease,-,-
+206,SDEC,Any request that would otherwise warrant inpatient echo (search for pathology/clinical question),Specific slots,SDEC (2x daily),-,-,(BHI local policy - reference required),-,-
+207,SDEC,Any request that would not normally warrant inpatient echo (search for pathology/clinical question),Not Indicated,-,-,-,(BHI local policy - reference required),-,-
+208,Syncope,Inpatient: Syncope with exercise or documented VT/VF,Inpatient - Priority,-,-,-,(BHI local policy - reference required),-,-
+209,Syncope,Inpatient: Syncope with known Moderate or Severe valve lesion - no recent echo (within 12 months),Inpatient - Routine,-,-,-,(BHI local policy - reference required),-,-
+210,Syncope,Inpatient: Syncope with uninvestigated murmur or 1st degree relative with ICC,Inpatient - Routine,-,-,-,(BHI local policy - reference required),-,-
+211,Syncope,Outpatient: Syncope with exercise or documented VT/VF,Outpatient,Urgent (<2 weeks),5,5,2024 BSE Poster - Outpatient Triage,-,-
+212,Syncope / Palpitations,Syncope or palpitations with known mild Aortic or Mitral valve lesion - no echo in 12 months,Outpatient,Routine,1,1,(BHI local policy - reference required),-,-
+213,Syncope / Palpitations,Syncope or palpitations with uninvestigated murmur or 1st degree relative with ICC,CDC,Routine,8,1,2024 BSE Poster - Outpatient Triage,-,-
+214,Syncope / Palpitations,Syncope or palpitations with low-risk ECG changes (e.g. LVH LBBB etc),CDC,Routine,8,1,(BHI local policy - reference required),-,-
+215,Syncope / Palpitations,No ECG proof of arrhythmia or clinical findings suggestive of structural heart disease,Not Indicated,-,-,-,2024 BSE Poster - Outpatient Triage,-,-
+216,Syncope / Palpitations,No murmur no 1st degree relative with ICC - no significant ECG Changes (RBBB etc),Not Indicated,-,-,-,2024 BSE Poster - Outpatient Triage,-,-
+217,Syncope / Palpitations,Suspected vasovagal hypotensive postural or situational cause - no significant ECG Changes (RBBB etc),Not Indicated,-,-,-,2024 BSE Poster - Outpatient Triage,-,-
+218,Syncope / Palpitations,Kown severe AS with existing plan for no further intervention,Not Indicated,-,-,-,BHI Inaptient Triage Sheet,-,-
+219,Tricuspid Regurgitation,Mild TR - normal valve anatomy and normal RV size/function,Not Indicated,-,-,-,2024 BSE Poster - Valve Disease,-,-
+220,Tricuspid Regurgitation,Mild TR - abnormal valve and/or impaired/dilated RV,Outpatient,3-5 years,1,1,2024 BSE Poster - Valve Disease,-,-
+221,Tricuspid Regurgitation,Mod TR - asymptomatic,Outpatient,12-24 months,1,1,2024 BSE Poster - Valve Disease,-,-
+222,Tricuspid Regurgitation,Sev TR - asymptomatic,Outpatient,6-12 months,1,1,2024 BSE Poster - Valve Disease,-,-
+223,Tricuspid Regurgitation,Any TR - Symptoms (syncope chest pain breathlesness pnd oedema etc),Escalate,Cardiology Review,-,-,2024 BSE Poster - Valve Disease,-,-
+224,Tricuspid Regurgitation,Any TR - ePASP >50mmHg and/or RV impairment,Escalate,Cardiology Review,-,-,2024 BSE Poster - Valve Disease,-,-
+225,Tricuspid Valve Repair,Any TV Repair - Post-procedure baseline (pre-discharge),Inpatient - Priority,-,-,-,(BHI local policy - reference required),-,-
+225,Tricuspid Valve Repair,Any TV Repair - continued follow-up,Outpatient,(as requested),-,-,(BHI local policy - reference required),-,-
+226,Tricuspid Valve Repair,Any TV Repair - Symptoms (syncope chest pain breathlesness pnd oedema etc),Escalate,Cardiology Review,-,-,2024 BSE Poster - Valve Disease,-,-
+227,Tricuspid Valve Repair,Any TV Repair - ePASP >50mmHg and/or RV impairment,Escalate,Cardiology Review,-,-,2024 BSE Poster - Valve Disease,-,-
