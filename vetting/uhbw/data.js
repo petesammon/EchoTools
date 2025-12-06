@@ -1,4 +1,4 @@
-[
+const dataStore = [
  {
    "accession": 1,
    "attribute1": "ACHD",
@@ -9,7 +9,8 @@
    "attribute6": "-",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--inpatient-priority)"
  },
  {
    "accession": 2,
@@ -21,7 +22,8 @@
    "attribute6": "-",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 3,
@@ -33,7 +35,8 @@
    "attribute6": "-",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--specific)"
  },
  {
    "accession": 4,
@@ -45,7 +48,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--reject)"
  },
  {
    "accession": 5,
@@ -57,7 +61,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 6,
@@ -69,7 +74,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 7,
@@ -81,7 +87,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 8,
@@ -93,7 +100,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--escalate)"
  },
  {
    "accession": 9,
@@ -105,7 +113,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--escalate)"
  },
  {
    "accession": 10,
@@ -117,7 +126,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--cdc)"
  },
  {
    "accession": 11,
@@ -129,7 +139,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 12,
@@ -141,7 +152,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 13,
@@ -153,7 +165,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 14,
@@ -165,7 +178,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--escalate)"
  },
  {
    "accession": 15,
@@ -177,7 +191,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--escalate)"
  },
  {
    "accession": 16,
@@ -189,7 +204,8 @@
    "attribute6": "-",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--reject)"
  },
  {
    "accession": 17,
@@ -201,7 +217,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--inpatient-priority)"
  },
  {
    "accession": 18,
@@ -213,7 +230,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 19,
@@ -225,7 +243,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--cdc)"
  },
  {
    "accession": 20,
@@ -237,7 +256,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 21,
@@ -249,7 +269,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 22,
@@ -261,7 +282,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--cdc)"
  },
  {
    "accession": 23,
@@ -273,7 +295,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--cdc)"
  },
  {
    "accession": 24,
@@ -285,7 +308,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 25,
@@ -297,7 +321,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--reject)"
  },
  {
    "accession": 26,
@@ -309,7 +334,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--escalate)"
  },
  {
    "accession": 27,
@@ -321,7 +347,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--escalate)"
  },
  {
    "accession": 28,
@@ -333,7 +360,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--escalate)"
  },
  {
    "accession": 29,
@@ -345,7 +373,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--cdc)"
  },
  {
    "accession": 30,
@@ -357,7 +386,8 @@
    "attribute6": "1",
    "attribute7": "2024 ESC Aorta Guidelines",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--cdc)"
  },
  {
    "accession": 31,
@@ -369,7 +399,8 @@
    "attribute6": "1",
    "attribute7": "2024 ESC Aorta Guidelines",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--cdc)"
  },
  {
    "accession": 32,
@@ -381,7 +412,8 @@
    "attribute6": "1",
    "attribute7": "2024 ESC Aorta Guidelines",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--cdc)"
  },
  {
    "accession": 33,
@@ -393,7 +425,8 @@
    "attribute6": "1",
    "attribute7": "2024 ESC Aorta Guidelines",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--cdc)"
  },
  {
    "accession": 34,
@@ -405,7 +438,8 @@
    "attribute6": "1",
    "attribute7": "2024 ESC Aorta Guidelines",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--escalate)"
  },
  {
    "accession": 35,
@@ -417,7 +451,8 @@
    "attribute6": "-",
    "attribute7": "2024 ESC Aorta Guidelines",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--escalate)"
  },
  {
    "accession": 36,
@@ -429,7 +464,8 @@
    "attribute6": "1",
    "attribute7": "2024 ESC Aorta Guidelines",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--cdc)"
  },
  {
    "accession": 37,
@@ -441,7 +477,8 @@
    "attribute6": "1",
    "attribute7": "2024 ESC Aorta Guidelines",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--cdc)"
  },
  {
    "accession": 38,
@@ -453,7 +490,8 @@
    "attribute6": "1",
    "attribute7": "2024 ESC Aorta Guidelines",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 39,
@@ -465,7 +503,8 @@
    "attribute6": "-",
    "attribute7": "2024 ESC Aorta Guidelines",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--escalate)"
  },
  {
    "accession": 40,
@@ -477,7 +516,8 @@
    "attribute6": "-",
    "attribute7": "2024 ESC Aorta Guidelines",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--escalate)"
  },
  {
    "accession": 41,
@@ -489,7 +529,8 @@
    "attribute6": "1",
    "attribute7": "2024 ESC Aorta Guidelines",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 47,
@@ -501,7 +542,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--inpatient-priority)"
  },
  {
    "accession": 42,
@@ -513,7 +555,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--cdc)"
  },
  {
    "accession": 43,
@@ -525,7 +568,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--cdc)"
  },
  {
    "accession": 44,
@@ -537,7 +581,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--cdc)"
  },
  {
    "accession": 45,
@@ -549,7 +594,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--cdc)"
  },
  {
    "accession": 46,
@@ -561,7 +607,8 @@
    "attribute6": "-",
    "attribute7": "BHI Inpatient Guidance Document",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--none)"
  },
  {
    "accession": 48,
@@ -573,7 +620,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--reject)"
  },
  {
    "accession": 49,
@@ -585,7 +633,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--reject)"
  },
  {
    "accession": 50,
@@ -597,7 +646,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--reject)"
  },
  {
    "accession": 51,
@@ -609,7 +659,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Inpatients",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--inpatient-priority)"
  },
  {
    "accession": 52,
@@ -621,7 +672,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 53,
@@ -633,7 +685,8 @@
    "attribute6": "5",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 54,
@@ -645,7 +698,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 55,
@@ -657,7 +711,8 @@
    "attribute6": "-",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--inpatient-priority)"
  },
  {
    "accession": 56,
@@ -669,7 +724,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 57,
@@ -681,7 +737,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 58,
@@ -693,7 +750,8 @@
    "attribute6": "5",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 59,
@@ -705,7 +763,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--reject)"
  },
  {
    "accession": 60,
@@ -717,7 +776,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--cdc)"
  },
  {
    "accession": 61,
@@ -729,7 +789,8 @@
    "attribute6": "1",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 62,
@@ -741,7 +802,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 63,
@@ -753,7 +815,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--reject)"
  },
  {
    "accession": 64,
@@ -765,7 +828,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Inpatients",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--emergency)"
  },
  {
    "accession": 65,
@@ -777,7 +841,8 @@
    "attribute6": "-",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--escalate)"
  },
  {
    "accession": 66,
@@ -789,7 +854,8 @@
    "attribute6": "-",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--inpatient-priority)"
  },
  {
    "accession": 67,
@@ -801,7 +867,8 @@
    "attribute6": "-",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--inpatient-routine)"
  },
  {
    "accession": 68,
@@ -813,7 +880,8 @@
    "attribute6": "1",
    "attribute7": "BHI SOP - Chest Pain Clinic Referral and Assessment",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--cdc)"
  },
  {
    "accession": 69,
@@ -825,7 +893,8 @@
    "attribute6": "-",
    "attribute7": "BHI SOP - Chest Pain Clinic Referral and Assessment",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--reject)"
  },
  {
    "accession": 70,
@@ -837,7 +906,8 @@
    "attribute6": "-",
    "attribute7": "BHI SOP - Chest Pain Clinic Referral and Assessment",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--reject)"
  },
  {
    "accession": 71,
@@ -849,7 +919,8 @@
    "attribute6": "-",
    "attribute7": "BHI SOP - Chest Pain Clinic Referral and Assessment",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--reject)"
  },
  {
    "accession": 72,
@@ -861,7 +932,8 @@
    "attribute6": "-",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--inpatient-priority)"
  },
  {
    "accession": 73,
@@ -873,7 +945,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 74,
@@ -885,7 +958,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 75,
@@ -897,7 +971,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 76,
@@ -909,7 +984,8 @@
    "attribute6": "-",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--reject)"
  },
  {
    "accession": 77,
@@ -921,7 +997,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Inpatients",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--emergency)"
  },
  {
    "accession": 78,
@@ -933,7 +1010,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Inpatients",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--inpatient-priority)"
  },
  {
    "accession": 79,
@@ -945,7 +1023,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Inpatients",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--reject)"
  },
  {
    "accession": 80,
@@ -957,7 +1036,8 @@
    "attribute6": "-",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--inpatient-priority)"
  },
  {
    "accession": 81,
@@ -969,7 +1049,8 @@
    "attribute6": "5",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 82,
@@ -981,7 +1062,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 83,
@@ -993,7 +1075,8 @@
    "attribute6": "1",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 84,
@@ -1005,7 +1088,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--reject)"
  },
  {
    "accession": 85,
@@ -1017,7 +1101,8 @@
    "attribute6": "-",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--inpatient-priority)"
  },
  {
    "accession": 86,
@@ -1029,7 +1114,8 @@
    "attribute6": "-",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--inpatient-routine)"
  },
  {
    "accession": 87,
@@ -1041,7 +1127,8 @@
    "attribute6": "3",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--cdc)"
  },
  {
    "accession": 88,
@@ -1053,7 +1140,8 @@
    "attribute6": "5",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 89,
@@ -1065,7 +1153,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--reject)"
  },
  {
    "accession": 90,
@@ -1077,7 +1166,8 @@
    "attribute6": "-",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--reject)"
  },
  {
    "accession": 91,
@@ -1089,7 +1179,8 @@
    "attribute6": "-",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--reject)"
  },
  {
    "accession": 92,
@@ -1101,7 +1192,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--reject)"
  },
  {
    "accession": 93,
@@ -1113,7 +1205,8 @@
    "attribute6": "-",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--inpatient-priority)"
  },
  {
    "accession": 94,
@@ -1125,7 +1218,8 @@
    "attribute6": "5",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 95,
@@ -1137,7 +1231,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--cdc)"
  },
  {
    "accession": 96,
@@ -1149,7 +1244,8 @@
    "attribute6": "-",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--reject)"
  },
  {
    "accession": 97,
@@ -1161,7 +1257,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--reject)"
  },
  {
    "accession": 98,
@@ -1173,7 +1270,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Inpatients",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--inpatient-priority)"
  },
  {
    "accession": 99,
@@ -1185,7 +1283,8 @@
    "attribute6": "-",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--inpatient-routine)"
  },
  {
    "accession": 100,
@@ -1197,7 +1296,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Inpatients",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--reject)"
  },
  {
    "accession": 101,
@@ -1209,7 +1309,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Inpatients",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--inpatient-priority)"
  },
  {
    "accession": 102,
@@ -1221,7 +1322,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Inpatients",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--inpatient-routine)"
  },
  {
    "accession": 103,
@@ -1233,7 +1335,8 @@
    "attribute6": "-",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--inpatient-routine)"
  },
  {
    "accession": 104,
@@ -1245,7 +1348,8 @@
    "attribute6": "-",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--reject)"
  },
  {
    "accession": 105,
@@ -1257,7 +1361,8 @@
    "attribute6": "-",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--inpatient-priority)"
  },
  {
    "accession": 106,
@@ -1269,7 +1374,8 @@
    "attribute6": "5",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 107,
@@ -1281,7 +1387,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--reject)"
  },
  {
    "accession": 108,
@@ -1293,7 +1400,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--reject)"
  },
  {
    "accession": 109,
@@ -1305,7 +1413,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--cdc)"
  },
  {
    "accession": 110,
@@ -1317,7 +1426,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 111,
@@ -1329,7 +1439,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 112,
@@ -1341,7 +1452,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--escalate)"
  },
  {
    "accession": 113,
@@ -1353,7 +1465,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--escalate)"
  },
  {
    "accession": 114,
@@ -1365,7 +1478,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--escalate)"
  },
  {
    "accession": 115,
@@ -1377,7 +1491,8 @@
    "attribute6": "-",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--escalate)"
  },
  {
    "accession": 116,
@@ -1389,7 +1504,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 117,
@@ -1401,7 +1517,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 118,
@@ -1413,7 +1530,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 119,
@@ -1425,7 +1543,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 120,
@@ -1437,7 +1556,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--escalate)"
  },
  {
    "accession": 121,
@@ -1449,7 +1569,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--escalate)"
  },
  {
    "accession": 122,
@@ -1461,7 +1582,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--escalate)"
  },
  {
    "accession": 123,
@@ -1473,7 +1595,8 @@
    "attribute6": "-",
    "attribute7": "BHI Inpatient Guidance Document",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--inpatient-priority)"
  },
  {
    "accession": 124,
@@ -1485,7 +1608,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 125,
@@ -1497,7 +1621,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 126,
@@ -1509,7 +1634,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 127,
@@ -1521,7 +1647,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 128,
@@ -1533,7 +1660,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 129,
@@ -1545,7 +1673,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--cdc)"
  },
  {
    "accession": 130,
@@ -1557,7 +1686,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 131,
@@ -1569,7 +1699,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 132,
@@ -1581,7 +1712,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--escalate)"
  },
  {
    "accession": 133,
@@ -1593,7 +1725,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--escalate)"
  },
  {
    "accession": 134,
@@ -1605,7 +1738,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--escalate)"
  },
  {
    "accession": 135,
@@ -1617,7 +1751,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 136,
@@ -1629,7 +1764,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 137,
@@ -1641,7 +1777,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--reject)"
  },
  {
    "accession": 138,
@@ -1653,7 +1790,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--escalate)"
  },
  {
    "accession": 139,
@@ -1665,7 +1803,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--escalate)"
  },
  {
    "accession": 140,
@@ -1677,7 +1816,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--escalate)"
  },
  {
    "accession": 141,
@@ -1689,7 +1829,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--cdc)"
  },
  {
    "accession": 142,
@@ -1701,7 +1842,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--cdc)"
  },
  {
    "accession": 143,
@@ -1713,7 +1855,8 @@
    "attribute6": "-",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--none)"
  },
  {
    "accession": 144,
@@ -1725,7 +1868,8 @@
    "attribute6": "-",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--none)"
  },
  {
    "accession": 145,
@@ -1737,7 +1881,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Inpatients",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--inpatient-priority)"
  },
  {
    "accession": 146,
@@ -1749,7 +1894,8 @@
    "attribute6": "-",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--inpatient-routine)"
  },
  {
    "accession": 147,
@@ -1761,7 +1907,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--reject)"
  },
  {
    "accession": 148,
@@ -1773,7 +1920,8 @@
    "attribute6": "-",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 149,
@@ -1785,7 +1933,8 @@
    "attribute6": "5",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 150,
@@ -1797,7 +1946,8 @@
    "attribute6": "1",
    "attribute7": "IGHG Cardiomyopathy Surveillance 2022",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--cdc)"
  },
  {
    "accession": 151,
@@ -1809,7 +1959,8 @@
    "attribute6": "1",
    "attribute7": "IGHG Cardiomyopathy Surveillance 2022",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--cdc)"
  },
  {
    "accession": 152,
@@ -1821,7 +1972,8 @@
    "attribute6": "1",
    "attribute7": "IGHG Cardiomyopathy Surveillance 2022",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--cdc)"
  },
  {
    "accession": 153,
@@ -1833,7 +1985,8 @@
    "attribute6": "1",
    "attribute7": "IGHG Cardiomyopathy Surveillance 2022",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--cdc)"
  },
  {
    "accession": 154,
@@ -1845,7 +1998,8 @@
    "attribute6": "1",
    "attribute7": "IGHG Cardiomyopathy Surveillance 2022",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--cdc)"
  },
  {
    "accession": 155,
@@ -1857,7 +2011,8 @@
    "attribute6": "1",
    "attribute7": "IGHG Cardiomyopathy Surveillance 2022",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--cdc)"
  },
  {
    "accession": 156,
@@ -1869,7 +2024,8 @@
    "attribute6": "-",
    "attribute7": "IGHG Cardiomyopathy Surveillance 2022",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 157,
@@ -1881,7 +2037,8 @@
    "attribute6": "-",
    "attribute7": "IGHG Cardiomyopathy Surveillance 2022",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 158,
@@ -1893,7 +2050,8 @@
    "attribute6": "1",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 159,
@@ -1905,7 +2063,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Inpatients",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--emergency)"
  },
  {
    "accession": 160,
@@ -1917,7 +2076,8 @@
    "attribute6": "-",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--inpatient-priority)"
  },
  {
    "accession": 161,
@@ -1929,7 +2089,8 @@
    "attribute6": "-",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--inpatient-priority)"
  },
  {
    "accession": 162,
@@ -1941,7 +2102,8 @@
    "attribute6": "5",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 163,
@@ -1953,7 +2115,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Inpatients",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 164,
@@ -1965,7 +2128,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Inpatients",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 165,
@@ -1977,7 +2141,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Inpatients",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 166,
@@ -1989,7 +2154,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Inpatients",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--reject)"
  },
  {
    "accession": 167,
@@ -2001,7 +2167,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Inpatients",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--reject)"
  },
  {
    "accession": 168,
@@ -2013,7 +2180,8 @@
    "attribute6": "-",
    "attribute7": "BHI SOP - Pericarditis",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--inpatient-priority)"
  },
  {
    "accession": 169,
@@ -2025,7 +2193,8 @@
    "attribute6": "1",
    "attribute7": "BHI SOP - Pericarditis",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 170,
@@ -2037,7 +2206,8 @@
    "attribute6": "-",
    "attribute7": "BHI SOP - Pericarditis",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--reject)"
  },
  {
    "accession": 171,
@@ -2049,7 +2219,8 @@
    "attribute6": "-",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--none)"
  },
  {
    "accession": 172,
@@ -2061,7 +2232,8 @@
    "attribute6": "-",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--inpatient-priority)"
  },
  {
    "accession": 173,
@@ -2073,7 +2245,8 @@
    "attribute6": "-",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--inpatient-priority)"
  },
  {
    "accession": 174,
@@ -2085,7 +2258,8 @@
    "attribute6": "-",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--reject)"
  },
  {
    "accession": 175,
@@ -2097,7 +2271,8 @@
    "attribute6": "-",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--specific)"
  },
  {
    "accession": 176,
@@ -2109,7 +2284,8 @@
    "attribute6": "-",
    "attribute7": "SOP - Pre-operative Echo",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--specific)"
  },
  {
    "accession": 177,
@@ -2121,7 +2297,8 @@
    "attribute6": "-",
    "attribute7": "SOP - Pre-operative Echo",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--specific)"
  },
  {
    "accession": 178,
@@ -2133,7 +2310,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--specific)"
  },
  {
    "accession": 179,
@@ -2145,7 +2323,8 @@
    "attribute6": "-",
    "attribute7": "SOP - Pre-operative Echo",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--specific)"
  },
  {
    "accession": 180,
@@ -2157,7 +2336,8 @@
    "attribute6": "-",
    "attribute7": "SOP - Pre-operative Echo",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--specific)"
  },
  {
    "accession": 181,
@@ -2169,7 +2349,8 @@
    "attribute6": "-",
    "attribute7": "SOP - Pre-operative Echo",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--specific)"
  },
  {
    "accession": 182,
@@ -2181,7 +2362,8 @@
    "attribute6": "-",
    "attribute7": "SOP - Pre-operative Echo",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--specific)"
  },
  {
    "accession": 183,
@@ -2193,7 +2375,8 @@
    "attribute6": "-",
    "attribute7": "SOP - Pre-operative Echo",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--specific)"
  },
  {
    "accession": 184,
@@ -2205,7 +2388,8 @@
    "attribute6": "-",
    "attribute7": "SOP - Pre-operative Echo",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--specific)"
  },
  {
    "accession": 185,
@@ -2217,7 +2401,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--reject)"
  },
  {
    "accession": 186,
@@ -2229,7 +2414,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--reject)"
  },
  {
    "accession": 187,
@@ -2241,7 +2427,8 @@
    "attribute6": "-",
    "attribute7": "SOP - Pre-operative Echo",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--reject)"
  },
  {
    "accession": 188,
@@ -2253,7 +2440,8 @@
    "attribute6": "-",
    "attribute7": "SOP - Pre-operative Echo",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--reject)"
  },
  {
    "accession": 189,
@@ -2265,7 +2453,8 @@
    "attribute6": "-",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--inpatient-routine)"
  },
  {
    "accession": 190,
@@ -2277,7 +2466,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 191,
@@ -2289,7 +2479,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 192,
@@ -2301,7 +2492,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 193,
@@ -2313,7 +2505,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--none)"
  },
  {
    "accession": 194,
@@ -2325,7 +2518,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--reject)"
  },
  {
    "accession": 195,
@@ -2337,7 +2531,8 @@
    "attribute6": "-",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--reject)"
  },
  {
    "accession": 196,
@@ -2349,7 +2544,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--reject)"
  },
  {
    "accession": 197,
@@ -2361,7 +2557,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 198,
@@ -2373,7 +2570,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 199,
@@ -2385,7 +2583,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--escalate)"
  },
  {
    "accession": 200,
@@ -2397,7 +2596,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--escalate)"
  },
  {
    "accession": 201,
@@ -2409,7 +2609,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 202,
@@ -2421,7 +2622,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 203,
@@ -2433,7 +2635,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 204,
@@ -2445,7 +2648,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--escalate)"
  },
  {
    "accession": 205,
@@ -2457,7 +2661,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--escalate)"
  },
  {
    "accession": 206,
@@ -2469,7 +2674,8 @@
    "attribute6": "-",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--specific)"
  },
  {
    "accession": 207,
@@ -2481,7 +2687,8 @@
    "attribute6": "-",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--reject)"
  },
  {
    "accession": 208,
@@ -2493,7 +2700,8 @@
    "attribute6": "-",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--inpatient-priority)"
  },
  {
    "accession": 209,
@@ -2505,7 +2713,8 @@
    "attribute6": "-",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--inpatient-routine)"
  },
  {
    "accession": 210,
@@ -2517,7 +2726,8 @@
    "attribute6": "-",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--inpatient-routine)"
  },
  {
    "accession": 211,
@@ -2529,7 +2739,8 @@
    "attribute6": "5",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 212,
@@ -2541,7 +2752,8 @@
    "attribute6": "1",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 213,
@@ -2553,7 +2765,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--cdc)"
  },
  {
    "accession": 214,
@@ -2565,7 +2778,8 @@
    "attribute6": "1",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--cdc)"
  },
  {
    "accession": 215,
@@ -2577,7 +2791,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--reject)"
  },
  {
    "accession": 216,
@@ -2589,7 +2804,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--reject)"
  },
  {
    "accession": 217,
@@ -2601,7 +2817,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--reject)"
  },
  {
    "accession": 218,
@@ -2613,7 +2830,8 @@
    "attribute6": "-",
    "attribute7": "BHI Inaptient Triage Sheet",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--reject)"
  },
  {
    "accession": 219,
@@ -2625,7 +2843,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--reject)"
  },
  {
    "accession": 220,
@@ -2637,7 +2856,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 221,
@@ -2649,7 +2869,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 222,
@@ -2661,7 +2882,8 @@
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 223,
@@ -2673,7 +2895,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--escalate)"
  },
  {
    "accession": 224,
@@ -2685,7 +2908,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--escalate)"
  },
  {
    "accession": 225,
@@ -2697,7 +2921,8 @@
    "attribute6": "-",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--inpatient-priority)"
  },
  {
    "accession": 225,
@@ -2709,7 +2934,8 @@
    "attribute6": "-",
    "attribute7": "(BHI local policy - reference required)",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--outpatient)"
  },
  {
    "accession": 226,
@@ -2721,7 +2947,8 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--escalate)"
  },
  {
    "accession": 227,
@@ -2733,6 +2960,7 @@
    "attribute6": "-",
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "-",
-   "attribute8": "-"
+   "attribute8": "-",
+   "color": "var(--escalate)"
  }
-]
+];
