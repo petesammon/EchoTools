@@ -57,7 +57,7 @@ input[type="text"]:focus {
 }
 
 .result-item:hover {
-    transform: translateX(2px);
+    transform: 0;
 }
 
 .result-header {
@@ -161,15 +161,14 @@ body.wide-layout {
 }
 
 .result-details.expanded {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 8px;
+    display: block;
+    gap: 0;
 }
 
 .detail-row {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
+    display: block;
+    flex-direction: row;
+    gap: 30%;
 }
 
 .detail-label {
@@ -196,15 +195,15 @@ body.wide-layout {
     }
 
     .result-item {
-        width: 100%;
+        width: 98%;
         grid-template-columns: 1fr;
-        gap: 8px;
-        padding: 12px;
+        gap: 4px;
+        padding: 6px;
         position: relative;
     }
 
     .result-item::after {
-        content: '▼';
+        content: '+';
         position: absolute;
         right: 12px;
         top: 12px;
@@ -214,31 +213,46 @@ body.wide-layout {
     }
 
     .result-item.expanded::after {
-        transform: rotate(180deg);
+        content:'-';
     }
 
     /* Hide attributes 3-8 by default on mobile */
-    .result-item > .attribute:nth-child(n+3),
-    .result-item > .attribute-left:nth-child(n+3) {
+    .result-item > .attribute:nth-child(n+5),
+    .result-item > .attribute-left:nth-child(n+5) {
         display: none;
     }
 
     /* Show first two attributes */
     .result-item > .attribute-left:nth-child(1),
-    .result-item > .attribute-left:nth-child(2) {
+    .result-item > .attribute-left:nth-child(2),
+    .result-item > .attribute-left:nth-child(3),
+    .result-item > .attribute-left:nth-child(4){
         display: block;
-        padding: 4px 0;
+        padding: 0;
     }
 
     .result-item > .attribute-left:nth-child(1) {
-        font-weight: 600;
-        color: var(--text-primary);
-        font-size: 0.95em;
+        font-size: 0.85em;
+        font-weight: 200;
     }
 
     .result-item > .attribute-left:nth-child(2) {
         font-size: 0.85em;
-        padding-right: 30px;
+        font-weight: 500;
+        padding-right: 6px;
+        padding-left: 10px
+    }
+    
+    .result-item > .attribute-left:nth-child(3) {
+        font-size: 0.85em;
+        font-weight: 200;
+        padding-left: 10px
+    }
+    
+    .result-item > .attribute-left:nth-child(4) {
+        font-size: 0.85em;
+        font-weight: 200;
+        padding-left: 10px
     }
 
     body.wide-layout {

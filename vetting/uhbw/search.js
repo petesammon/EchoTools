@@ -91,27 +91,19 @@ function displayResults(matches, searchTerm1, searchTerm2) {
                 <div class="attribute">${entry.attribute8}</div>
                 <div class="result-details">
                     <div class="detail-row">
-                        <span class="detail-label">Action</span>
-                        <span class="detail-value">${entry.attribute3}</span>
-                    </div>
-                    <div class="detail-row">
-                        <span class="detail-label">Detail</span>
-                        <span class="detail-value">${entry.attribute4}</span>
-                    </div>
-                    <div class="detail-row">
-                        <span class="detail-label">BHI</span>
+                        <span class="detail-label">BHI:</span>
                         <span class="detail-value">${entry.attribute5}</span>
                     </div>
                     <div class="detail-row">
-                        <span class="detail-label">WGH</span>
+                        <span class="detail-label">WGH:</span>
                         <span class="detail-value">${entry.attribute6}</span>
                     </div>
                     <div class="detail-row">
-                        <span class="detail-label">Reference</span>
+                        <span class="detail-label">Reference:</span>
                         <span class="detail-value"><a href="${entry.attribute7_link}" target="_blank">${entry.attribute7}</a></span>
                     </div>
                     <div class="detail-row">
-                        <span class="detail-label">Updated</span>
+                        <span class="detail-label">Updated:</span>
                         <span class="detail-value">${entry.attribute8}</span>
                     </div>
                 </div>
