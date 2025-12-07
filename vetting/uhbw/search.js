@@ -2,25 +2,18 @@ const searchInput = document.getElementById('searchInput');
 const searchInput2 = document.getElementById('searchInput2');
 const resultsDiv = document.getElementById('resultsContainer');
 
-// Create autocomplete datalist for first search box
-function initializeAutocomplete() {
-    // Get unique attribute1 values
+// Populate dropdown with unique attribute1 values
+function initializeDropdown() {
+    // Get unique attribute1 values and sort them
     const uniqueAttributes = [...new Set(dataStore.map(entry => entry.attribute1))].sort();
     
-    // Create datalist element
-    const datalist = document.createElement('datalist');
-    datalist.id = 'attributeList';
-    
-    // Add options
+    // Add options to the select element
     uniqueAttributes.forEach(attr => {
         const option = document.createElement('option');
         option.value = attr;
-        datalist.appendChild(option);
+        option.textContent = attr;
+        searchInput.appendChild(option);
     });
-    
-    // Add datalist to document and link to input
-    document.body.appendChild(datalist);
-    searchInput.setAttribute('list', 'attributeList');
 }
 
 function performSearch() {
@@ -137,7 +130,7 @@ function addMobileClickHandlers() {
     });
 }
 
-searchInput.addEventListener('input', () => {
+searchInput.addEventListener('change', () => {
     performSearch();
 });
 
@@ -145,5 +138,5 @@ searchInput2.addEventListener('input', () => {
     performSearch();
 });
 
-// Initialize autocomplete when page loads (only for first search box)
-initializeAutocomplete();
+// Initialize dropdown when page loads
+initializeDropdown();
