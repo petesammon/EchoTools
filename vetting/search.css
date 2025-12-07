@@ -52,6 +52,12 @@ input[type="text"]:focus {
     width: 1050px;
     grid-template-columns: 120px 350px 120px 100px 30px 30px 200px 80px;
     gap: 2px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.result-item:hover {
+    transform: translateX(2px);
 }
 
 .result-header {
@@ -143,4 +149,99 @@ input[type="text"]:focus {
 
 body.wide-layout {
     max-width: 95%;
+}
+
+/* Mobile expandable details */
+.result-details {
+    display: none;
+    grid-column: 1 / -1;
+    padding-top: 10px;
+    margin-top: 10px;
+    border-top: 1px solid var(--border-color);
+}
+
+.result-details.expanded {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+}
+
+.detail-row {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.detail-label {
+    font-size: 0.75em;
+    font-weight: bold;
+    color: var(--text-primary);
+    opacity: 0.7;
+}
+
+.detail-value {
+    font-size: 0.85em;
+    color: var(--text-secondary);
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .results-container {
+        padding: 10px;
+        overflow-x: visible;
+    }
+
+    .result-header {
+        display: none;
+    }
+
+    .result-item {
+        width: 100%;
+        grid-template-columns: 1fr;
+        gap: 8px;
+        padding: 12px;
+        position: relative;
+    }
+
+    .result-item::after {
+        content: '▼';
+        position: absolute;
+        right: 12px;
+        top: 12px;
+        font-size: 0.8em;
+        color: var(--text-secondary);
+        transition: transform 0.3s;
+    }
+
+    .result-item.expanded::after {
+        transform: rotate(180deg);
+    }
+
+    /* Hide attributes 3-8 by default on mobile */
+    .result-item > .attribute:nth-child(n+3),
+    .result-item > .attribute-left:nth-child(n+3) {
+        display: none;
+    }
+
+    /* Show first two attributes */
+    .result-item > .attribute-left:nth-child(1),
+    .result-item > .attribute-left:nth-child(2) {
+        display: block;
+        padding: 4px 0;
+    }
+
+    .result-item > .attribute-left:nth-child(1) {
+        font-weight: 600;
+        color: var(--text-primary);
+        font-size: 0.95em;
+    }
+
+    .result-item > .attribute-left:nth-child(2) {
+        font-size: 0.85em;
+        padding-right: 30px;
+    }
+
+    body.wide-layout {
+        max-width: 100%;
+    }
 }

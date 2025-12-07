@@ -61,8 +61,7 @@ function displayResults(matches, searchTerm1, searchTerm2) {
         return;
     }
 
-    let  
-    html = `
+    let html = `
         <div class="result-header">
             <div class="header-cell">Presentation</div>
             <div class="header-cell">Clinical Details</div>
@@ -75,13 +74,13 @@ function displayResults(matches, searchTerm1, searchTerm2) {
         </div>
     `;
     
-    matches.forEach(entry => {
+    matches.forEach((entry, index) => {
         // Use custom color if specified, otherwise use default
         const bgColor = entry.color || 'var(--bg-block)';
         const styleAttr = entry.color ? `style="background-color: ${bgColor};"` : '';
         
         html += `
-            <div class="result-item" ${styleAttr}>
+            <div class="result-item" ${styleAttr} data-index="${index}">
                 <div class="attribute-left">${entry.attribute1}</div>
                 <div class="attribute-left">${entry.attribute2}</div>
                 <div class="attribute-left">${entry.attribute3}</div>
@@ -90,11 +89,60 @@ function displayResults(matches, searchTerm1, searchTerm2) {
                 <div class="attribute">${entry.attribute6}</div>
                 <div class="attribute-left"><a href="${entry.attribute7_link}" target="_blank">${entry.attribute7}</a></div>
                 <div class="attribute">${entry.attribute8}</div>
+                <div class="result-details">
+                    <div class="detail-row">
+                        <span class="detail-label">Action</span>
+                        <span class="detail-value">${entry.attribute3}</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Detail</span>
+                        <span class="detail-value">${entry.attribute4}</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">BHI</span>
+                        <span class="detail-value">${entry.attribute5}</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">WGH</span>
+                        <span class="detail-value">${entry.attribute6}</span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Reference</span>
+                        <span class="detail-value"><a href="${entry.attribute7_link}" target="_blank">${entry.attribute7}</a></span>
+                    </div>
+                    <div class="detail-row">
+                        <span class="detail-label">Updated</span>
+                        <span class="detail-value">${entry.attribute8}</span>
+                    </div>
+                </div>
             </div>
         `;
     });
 
     resultsDiv.innerHTML = html;
+    
+    // Add click handlers for mobile expansion
+    addMobileClickHandlers();
+}
+
+function addMobileClickHandlers() {
+    const resultItems = document.querySelectorAll('.result-item');
+    
+    resultItems.forEach(item => {
+        item.addEventListener('click', function(e) {
+            // Don't expand if clicking on a link
+            if (e.target.tagName === 'A') {
+                return;
+            }
+            
+            // Only on mobile (check window width)
+            if (window.innerWidth <= 768) {
+                const details = this.querySelector('.result-details');
+                details.classList.toggle('expanded');
+                this.classList.toggle('expanded');
+            }
+        });
+    });
 }
 
 searchInput.addEventListener('input', () => {
