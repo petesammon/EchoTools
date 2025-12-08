@@ -117,19 +117,15 @@ select {
 textarea {
     padding: 0.4rem 0.6rem;
     font-size: 0.85rem;
-    min-height: 0;
-    height: 2.2rem; /* Fixed height to match dropdown */
+    min-height: 1.8rem;
     line-height: 1.2;
     margin-bottom: 0.5rem;
-    resize: none; /* Disable resize handle */
-    box-sizing: border-box; /* Include padding in height calculation */
+    resize: vertical;
 }
 
 /* Large textarea variant - add this class to textareas that need more space */
 textarea.large {
     min-height: 8rem;
-    height: auto; /* Allow large textareas to be taller */
-    resize: vertical; /* Allow resizing for large textareas only */
 }
 
 /* Grid spacing */
@@ -144,20 +140,19 @@ hr {
     opacity: 0.3;
 }
 
-/* NEW: Four-column layout - label | dropdown/textarea | textarea | checkbox */
 #options > div > div[id] {
     display: grid;
-    grid-template-columns: 140px 1fr 1fr 80px; /* label | dropdown/textarea | textarea | checkbox */
-    grid-gap: 0.75rem;
+    grid-template-columns: 1fr 80px; /* input area | checkbox column */
+    grid-gap: 1rem;
     align-items: start;
     margin-bottom: 0.5rem;
 }
 
-/* Create header for the four columns */
+/* Create simple header for Summary column */
 #options > div > h4 {
     display: grid;
-    grid-template-columns: 140px 1fr 1fr 80px;
-    grid-gap: 0.75rem;
+    grid-template-columns: 1fr 80px;
+    grid-gap: 1rem;
     font-size: 0.85rem;
     font-weight: 600;
     margin: 0 0 0.5rem 0;
@@ -165,78 +160,38 @@ hr {
     border-bottom: 2px solid rgba(128, 128, 128, 0.2);
 }
 
-/* Header labels */
-#options > div > h4 span {
-    text-align: left;
-}
-
-#options > div > h4 span:first-child {
-    text-align: right;
-}
-
+/* First span is empty, second span says "Summary" */
 #options > div > h4 span:last-child {
     text-align: center;
 }
 
-/* Label column (first column) */
-.label-container {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    padding-top: 0.4rem;
-}
-
-.label-container label {
-    margin-bottom: 0;
+/* Labels and inputs stay together in first column */
+#options label {
+    display: block;
+    margin-bottom: 0.25rem;
     font-size: 0.85rem;
     font-weight: 500;
-    text-align: right;
 }
 
-/* Dropdown container (second column) */
-.dropdown-container {
+/* The .grid div contains the input elements */
+#options .grid {
     display: flex;
     flex-direction: column;
-}
-
-.dropdown-container select {
+    gap: 0.25rem;
     margin-bottom: 0;
 }
 
-/* Textarea container (third column, or second if no dropdown) */
-.textarea-container {
-    display: flex;
-    flex-direction: column;
-}
-
-.textarea-container textarea {
-    margin-bottom: 0;
-}
-
-/* When no dropdown, textarea stays in column 2 only */
-#options > div > div[id].no-dropdown .textarea-container {
-    grid-column: 2;
-}
-
-/* Dropdown only - dropdown stays in column 2 only */
-#options > div > div[id].dropdown-only .dropdown-container {
-    grid-column: 2;
-}
-
-/* Conditional textarea - same as default, but textarea is hidden initially */
-#options > div > div[id].conditional-textarea .textarea-container {
-    /* Uses default positioning - column 3 */
-}
-
-/* Checkbox styling - always in fourth column */
+/* Checkbox styling in second column */
 .summary-checkbox-container {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 0.4rem;
+    background-color: rgba(128, 128, 128, 0.05);
     border-radius: 4px;
+    border: 1px solid rgba(128, 128, 128, 0.15);
     height: fit-content;
-    grid-column: 4; /* Always place in column 4 */
+    margin-top: 1.3rem; /* Align with input field, accounting for label height */
 }
 
 .summary-checkbox-container input[type="checkbox"] {
@@ -245,4 +200,19 @@ hr {
     margin: 0;
     cursor: pointer;
     accent-color: var(--pico-primary);
+}
+
+/* Hide the label text since we have a column header */
+.summary-checkbox-container label {
+    display: none;
+}
+
+.summary-checkbox-container:hover {
+    background-color: rgba(128, 128, 128, 0.08);
+    border-color: rgba(128, 128, 128, 0.25);
+}
+
+.summary-checkbox-container:has(input[type="checkbox"]:checked) {
+    background-color: rgba(0, 128, 0, 0.05);
+    border-color: rgba(0, 128, 0, 0.2);
 }
