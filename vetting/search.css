@@ -1,14 +1,15 @@
 /* elements specifically for search functionality */
 :root {
-    --emergency: #ff6d6d;
-    --escalate: #ffab6d;
-    --inpatient-priority: #ffe4ee;
-    --inpatient-routine: #ffedfb;
-    --outpatient: #e5f4ff;
-    --cdc: #e7fff0;
-    --specific: #faffe5;
-    --none: #efefef;
-    --reject: #868686;
+    --emergency: #fc7f7f;
+    --escalate: #ffbd8c;
+    --inpatient-priority: #e9ddfc;
+    --inpatient-routine: #ffe4f6;
+    --outpatient-urgent: #fff2e5;
+    --outpatient-routine: #ffffe5;
+    --cdc: #f0ffe7;
+    --specific: #e5faff;
+    --none: #fafafa;
+    --reject: #9d9d9d;
 }
 
 input[type="text"],
