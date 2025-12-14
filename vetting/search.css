@@ -12,9 +12,20 @@
     --reject: #9d9d9d;
 }
 
+.block2 {
+    padding: 10px; 
+    width: 90%;
+    max-width: 480px;
+    margin: auto;
+    display: block;
+    background-color: var(--bg-block);
+    border-radius: 4px;
+    text-align: center;
+}
+
 input[type="text"],
 select {
-    width: 80%;
+    width: 90%;
     max-width: 500px;
     margin: 0 auto 10px auto;
     display: block;

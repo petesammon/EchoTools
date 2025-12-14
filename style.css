@@ -185,7 +185,6 @@ body {
 .block {
     padding: 6px; 
     display: block;
-    color: var(--text-secondary);
     background-color: var(--bg-block);
     border-radius: 4px;
     margin:6px;
