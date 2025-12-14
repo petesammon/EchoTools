@@ -653,7 +653,7 @@ const dataStore = [
    "attribute1": "Cardiac Mass",
    "attribute2": "Cross-sectional imaging or other clinical findings highly suggestive of cardiac mass",
    "attribute3": "Outpatient - Routine",
-   "attribute4": "Routine",
+   "attribute4": "(current wait time)",
    "attribute5": "5",
    "attribute6": "5",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
@@ -666,7 +666,7 @@ const dataStore = [
    "attribute1": "Cardiac Mass",
    "attribute2": "Other malignancy with known risk of cardiac involvement (e.g. renal cell carcinoma)",
    "attribute3": "Outpatient - Routine",
-   "attribute4": "Routine",
+   "attribute4": "(current wait time)",
    "attribute5": "1",
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
@@ -692,7 +692,7 @@ const dataStore = [
    "attribute1": "Cardiomyopathy (Known)",
    "attribute2": "Established genetic or infiltrative cause of LVH - change in clinical status and/or last echo >12 months ago",
    "attribute3": "Outpatient - Routine",
-   "attribute4": "Routine",
+   "attribute4": "(current wait time)",
    "attribute5": "1",
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
@@ -705,7 +705,7 @@ const dataStore = [
    "attribute1": "Cardiomyopathy (Known)",
    "attribute2": "Significant change / progression (e.g. new NYHA Class III or IV symptoms) since last echo",
    "attribute3": "Outpatient - Urgent",
-   "attribute4": "Urgent (<2 weeks)",
+   "attribute4": "<2 weeks",
    "attribute5": "5",
    "attribute6": "5",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
@@ -744,7 +744,7 @@ const dataStore = [
    "attribute1": "Cardiomyopathy (Suspected)",
    "attribute2": "Suspected inherited cardiomyopathy - abnormal examination; ECG; and/or or other positive findings",
    "attribute3": "Outpatient - Routine",
-   "attribute4": "Routine",
+   "attribute4": "(current wait time)",
    "attribute5": "1",
    "attribute6": "1",
    "attribute7": "Local policy",
@@ -757,7 +757,7 @@ const dataStore = [
    "attribute1": "Cardiomyopathy (Suspected)",
    "attribute2": "Neuromuscular diseases with cardiac involvement (e.g. muscular dystrophies; Friedreich’s ataxia; mitochondrial myopathies)",
    "attribute3": "Outpatient - Routine",
-   "attribute4": "Routine",
+   "attribute4": "(current wait time)",
    "attribute5": "1",
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
@@ -900,7 +900,7 @@ const dataStore = [
    "attribute1": "Embolism - Major Vessel",
    "attribute2": "Acute interruption of blood flow to a major peripheral or visceral artery",
    "attribute3": "Outpatient - Routine",
-   "attribute4": "Routine",
+   "attribute4": "(current wait time)",
    "attribute5": "1",
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
@@ -913,7 +913,7 @@ const dataStore = [
    "attribute1": "Embolism - Stroke / TIA",
    "attribute2": "Age <55 - clinical suspicion of PFO (in addition - likley to require bubble sttudy with agitated saline contrast)",
    "attribute3": "Outpatient - Routine",
-   "attribute4": "Routine",
+   "attribute4": "(current wait time)",
    "attribute5": "1",
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
@@ -926,7 +926,7 @@ const dataStore = [
    "attribute1": "Embolism - Stroke / TIA",
    "attribute2": "Young age; no other risk factors for stroke (high suspicion of cardiac embolic source)",
    "attribute3": "Outpatient - Routine",
-   "attribute4": "Routine",
+   "attribute4": "(current wait time)",
    "attribute5": "1",
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
@@ -1004,7 +1004,7 @@ const dataStore = [
    "attribute1": "Heart Failure (Known)",
    "attribute2": "Outpatient: Significant change in symptoms (e.g. new NYHA Class III or IV); no echo in 12 months (BNP not required)",
    "attribute3": "Outpatient - Urgent",
-   "attribute4": "Urgent (<2 weeks)",
+   "attribute4": "<2 weeks",
    "attribute5": "5",
    "attribute6": "5",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
@@ -1017,7 +1017,7 @@ const dataStore = [
    "attribute1": "Heart Failure (Known)",
    "attribute2": "To guide specified  treatment decisions (e.g. CRT-D; PCI; cardioversion)",
    "attribute3": "Outpatient - Routine",
-   "attribute4": "Routine",
+   "attribute4": "(current wait time)",
    "attribute5": "1",
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
@@ -1080,29 +1080,29 @@ const dataStore = [
  },
  {
    "attribute1": "Heart Failure (Suspected)",
-   "attribute2": "Outpatient: Clinical signs + BNP 400-2000",
-   "attribute3": "CDC",
-   "attribute4": "Soon (2-6 weeks)",
-   "attribute5": "8",
-   "attribute6": "3",
-   "attribute7": "2024 BSE Poster - Outpatient Triage",
-   "attribute7_link": "https://echotools.uk/vetting/guidelines/2024-bse-outpatients.pdf",
-   "attribute8": "09/12/2025",
-   "accession": 84,
-   "color": "var(--outpatient-soon)"
- },
- {
-   "attribute1": "Heart Failure (Suspected)",
    "attribute2": "Outpatient: Clinical signs + BNP >2000 (or NYHA Class III or IV symptoms)",
    "attribute3": "Outpatient - Urgent",
-   "attribute4": "Urgent (<2 weeks)",
+   "attribute4": "<2 weeks",
    "attribute5": "5",
    "attribute6": "5",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "https://echotools.uk/vetting/guidelines/2024-bse-outpatients.pdf",
    "attribute8": "09/12/2025",
-   "accession": 85,
+   "accession": 84,
    "color": "var(--outpatient-urgent)"
+ },
+ {
+   "attribute1": "Heart Failure (Suspected)",
+   "attribute2": "Outpatient: Clinical signs + BNP 400-2000",
+   "attribute3": "CDC",
+   "attribute4": "<6 weeks",
+   "attribute5": "8",
+   "attribute6": "3",
+   "attribute7": "2024 BSE Poster - Outpatient Triage",
+   "attribute7_link": "https://echotools.uk/vetting/guidelines/2024-bse-outpatients.pdf",
+   "attribute8": "09/12/2025",
+   "accession": 85,
+   "color": "var(--outpatient-soon)"
  },
  {
    "attribute1": "Heart Failure (Suspected)",
@@ -1173,7 +1173,7 @@ const dataStore = [
    "attribute1": "Hypertension",
    "attribute2": "Elevated BP (>180/120mmHg) - with other findings to suggest LV systolic dysfunction (consider admission)",
    "attribute3": "Outpatient - Urgent",
-   "attribute4": "Urgent (<2 weeks)",
+   "attribute4": "<2 weeks",
    "attribute5": "5",
    "attribute6": "5",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
@@ -1329,7 +1329,7 @@ const dataStore = [
    "attribute1": "LV Thrombus",
    "attribute2": "Embolic event with known LV dysfunction (contrast for LV opacification likely required)",
    "attribute3": "Outpatient - Urgent",
-   "attribute4": "Urgent (<2 weeks)",
+   "attribute4": "<2 weeks",
    "attribute5": "5",
    "attribute6": "5",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
@@ -1862,7 +1862,7 @@ const dataStore = [
    "attribute1": "Oncology",
    "attribute2": "Initial scan prior to initiation of high cardiac risk medication (e.g. anthracyclines; herceptin)",
    "attribute3": "Outpatient - Urgent",
-   "attribute4": "Urgent (<2 weeks)",
+   "attribute4": "<2 weeks",
    "attribute5": "7",
    "attribute6": "5",
    "attribute7": "Local policy",
@@ -1886,32 +1886,6 @@ const dataStore = [
  },
  {
    "attribute1": "Oncology",
-   "attribute2": "Pregnancy with previous anthracycline or chest-directed radiotherapy (any dose)",
-   "attribute3": "Outpatient - Scheduled",
-   "attribute4": "First trimester",
-   "attribute5": "-",
-   "attribute6": "-",
-   "attribute7": "IGHG Cardiomyopathy Surveillance 2022",
-   "attribute7_link": "https://echotools.uk/vetting/guidelines/2022-ighg-cardiomyopathy.pdf",
-   "attribute8": "09/12/2025",
-   "accession": 146,
-   "color": "var(--outpatient-routine)"
- },
- {
-   "attribute1": "Oncology",
-   "attribute2": "Pregnancy with previous LVSD secondary to anthracycline or chest-directed radiotherapy (any dose)",
-   "attribute3": "Outpatient - Scheduled",
-   "attribute4": "(as requested)",
-   "attribute5": "-",
-   "attribute6": "-",
-   "attribute7": "IGHG Cardiomyopathy Surveillance 2022",
-   "attribute7_link": "https://echotools.uk/vetting/guidelines/2022-ighg-cardiomyopathy.pdf",
-   "attribute8": "09/12/2025",
-   "accession": 147,
-   "color": "var(--outpatient-routine)"
- },
- {
-   "attribute1": "Oncology",
    "attribute2": "Routine screening - Previous high-dose chest-directed radiotherapy alone (>30Gy)",
    "attribute3": "CDC",
    "attribute4": "24 months",
@@ -1920,7 +1894,7 @@ const dataStore = [
    "attribute7": "IGHG Cardiomyopathy Surveillance 2022",
    "attribute7_link": "https://echotools.uk/vetting/guidelines/2022-ighg-cardiomyopathy.pdf",
    "attribute8": "09/12/2025",
-   "accession": 148,
+   "accession": 146,
    "color": "var(--cdc)"
  },
  {
@@ -1933,7 +1907,7 @@ const dataStore = [
    "attribute7": "IGHG Cardiomyopathy Surveillance 2022",
    "attribute7_link": "https://echotools.uk/vetting/guidelines/2022-ighg-cardiomyopathy.pdf",
    "attribute8": "09/12/2025",
-   "accession": 149,
+   "accession": 147,
    "color": "var(--cdc)"
  },
  {
@@ -1946,7 +1920,7 @@ const dataStore = [
    "attribute7": "IGHG Cardiomyopathy Surveillance 2022",
    "attribute7_link": "https://echotools.uk/vetting/guidelines/2022-ighg-cardiomyopathy.pdf",
    "attribute8": "09/12/2025",
-   "accession": 150,
+   "accession": 148,
    "color": "var(--cdc)"
  },
  {
@@ -1959,7 +1933,7 @@ const dataStore = [
    "attribute7": "IGHG Cardiomyopathy Surveillance 2022",
    "attribute7_link": "https://echotools.uk/vetting/guidelines/2022-ighg-cardiomyopathy.pdf",
    "attribute8": "09/12/2025",
-   "accession": 151,
+   "accession": 149,
    "color": "var(--cdc)"
  },
  {
@@ -1972,7 +1946,7 @@ const dataStore = [
    "attribute7": "IGHG Cardiomyopathy Surveillance 2022",
    "attribute7_link": "https://echotools.uk/vetting/guidelines/2022-ighg-cardiomyopathy.pdf",
    "attribute8": "09/12/2025",
-   "accession": 152,
+   "accession": 150,
    "color": "var(--cdc)"
  },
  {
@@ -1985,20 +1959,20 @@ const dataStore = [
    "attribute7": "IGHG Cardiomyopathy Surveillance 2022",
    "attribute7_link": "https://echotools.uk/vetting/guidelines/2022-ighg-cardiomyopathy.pdf",
    "attribute8": "09/12/2025",
-   "accession": 153,
+   "accession": 151,
    "color": "var(--cdc)"
  },
  {
    "attribute1": "Pacemaker",
    "attribute2": "Consideration for CRT device; need to define EF (? above or below 40%)",
    "attribute3": "Outpatient - Routine",
-   "attribute4": "Routine",
+   "attribute4": "(current wait time)",
    "attribute5": "1",
    "attribute6": "1",
    "attribute7": "Local policy",
    "attribute7_link": "-",
    "attribute8": "09/12/2025",
-   "accession": 154,
+   "accession": 152,
    "color": "var(--outpatient-routine)"
  },
  {
@@ -2011,7 +1985,7 @@ const dataStore = [
    "attribute7": "2024 BSE Poster - Inpatients",
    "attribute7_link": "https://echotools.uk/vetting/guidelines/2024-bse-inpatients.pdf",
    "attribute8": "09/12/2025",
-   "accession": 155,
+   "accession": 153,
    "color": "var(--emergency)"
  },
  {
@@ -2024,7 +1998,7 @@ const dataStore = [
    "attribute7": "Local policy",
    "attribute7_link": "-",
    "attribute8": "09/12/2025",
-   "accession": 156,
+   "accession": 154,
    "color": "var(--inpatient-priority)"
  },
  {
@@ -2037,20 +2011,20 @@ const dataStore = [
    "attribute7": "Local policy",
    "attribute7_link": "-",
    "attribute8": "09/12/2025",
-   "accession": 157,
+   "accession": 155,
    "color": "var(--inpatient-priority)"
  },
  {
    "attribute1": "Pericardial Effusion",
    "attribute2": "Suspected effusion; recent discharge after cardiac surgery (chest pain; breathlessness; oedema leg swelling etc)",
    "attribute3": "Outpatient - Urgent",
-   "attribute4": "Urgent (<2 weeks)",
+   "attribute4": "<2 weeks",
    "attribute5": "5",
    "attribute6": "5",
    "attribute7": "Local policy",
    "attribute7_link": "-",
    "attribute8": "09/12/2025",
-   "accession": 158,
+   "accession": 156,
    "color": "var(--outpatient-urgent)"
  },
  {
@@ -2063,33 +2037,33 @@ const dataStore = [
    "attribute7": "2024 BSE Poster - Inpatients",
    "attribute7_link": "https://echotools.uk/vetting/guidelines/2024-bse-inpatients.pdf",
    "attribute8": "09/12/2025",
-   "accession": 159,
+   "accession": 157,
    "color": "var(--outpatient-routine)"
  },
  {
    "attribute1": "Pericardial Effusion",
    "attribute2": "Known small effusion; with recent change in clinical status",
    "attribute3": "Outpatient - Routine",
-   "attribute4": "Routine",
+   "attribute4": "(current wait time)",
    "attribute5": "1",
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Inpatients",
    "attribute7_link": "https://echotools.uk/vetting/guidelines/2024-bse-inpatients.pdf",
    "attribute8": "09/12/2025",
-   "accession": 160,
+   "accession": 158,
    "color": "var(--outpatient-routine)"
  },
  {
    "attribute1": "Pericardial Effusion",
    "attribute2": "Suspected constrictive cardiomyopathy",
    "attribute3": "Outpatient - Routine",
-   "attribute4": "Routine",
+   "attribute4": "(current wait time)",
    "attribute5": "1",
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Inpatients",
    "attribute7_link": "https://echotools.uk/vetting/guidelines/2024-bse-inpatients.pdf",
    "attribute8": "09/12/2025",
-   "accession": 161,
+   "accession": 159,
    "color": "var(--outpatient-routine)"
  },
  {
@@ -2102,7 +2076,7 @@ const dataStore = [
    "attribute7": "2024 BSE Poster - Inpatients",
    "attribute7_link": "https://echotools.uk/vetting/guidelines/2024-bse-inpatients.pdf",
    "attribute8": "09/12/2025",
-   "accession": 162,
+   "accession": 160,
    "color": "var(--reject)"
  },
  {
@@ -2115,7 +2089,7 @@ const dataStore = [
    "attribute7": "2024 BSE Poster - Inpatients",
    "attribute7_link": "https://echotools.uk/vetting/guidelines/2024-bse-inpatients.pdf",
    "attribute8": "09/12/2025",
-   "accession": 163,
+   "accession": 161,
    "color": "var(--reject)"
  },
  {
@@ -2128,20 +2102,20 @@ const dataStore = [
    "attribute7": "UHBW SOP - Pericarditis",
    "attribute7_link": "-",
    "attribute8": "09/12/2025",
-   "accession": 164,
+   "accession": 162,
    "color": "var(--inpatient-priority)"
  },
  {
    "attribute1": "Pericarditis",
    "attribute2": "Suspected pericarditis (chest pain; ECG; bloods; imaging; rub) - without haemodynamic compromise",
    "attribute3": "Outpatient - Routine",
-   "attribute4": "Routine",
+   "attribute4": "(current wait time)",
    "attribute5": "1",
    "attribute6": "1",
    "attribute7": "UHBW SOP - Pericarditis",
    "attribute7_link": "-",
    "attribute8": "09/12/2025",
-   "accession": 165,
+   "accession": 163,
    "color": "var(--outpatient-routine)"
  },
  {
@@ -2154,7 +2128,7 @@ const dataStore = [
    "attribute7": "UHBW SOP - Pericarditis",
    "attribute7_link": "-",
    "attribute8": "09/12/2025",
-   "accession": 166,
+   "accession": 164,
    "color": "var(--reject)"
  },
  {
@@ -2167,7 +2141,7 @@ const dataStore = [
    "attribute7": "Local policy",
    "attribute7_link": "-",
    "attribute8": "09/12/2025",
-   "accession": 167,
+   "accession": 165,
    "color": "var(--inpatient-priority)"
  },
  {
@@ -2180,7 +2154,7 @@ const dataStore = [
    "attribute7": "Local policy",
    "attribute7_link": "-",
    "attribute8": "09/12/2025",
-   "accession": 168,
+   "accession": 166,
    "color": "var(--inpatient-priority)"
  },
  {
@@ -2193,7 +2167,7 @@ const dataStore = [
    "attribute7": "Local policy",
    "attribute7_link": "-",
    "attribute8": "09/12/2025",
-   "accession": 169,
+   "accession": 167,
    "color": "var(--none)"
  },
  {
@@ -2206,7 +2180,7 @@ const dataStore = [
    "attribute7": "Local policy",
    "attribute7_link": "-",
    "attribute8": "09/12/2025",
-   "accession": 170,
+   "accession": 168,
    "color": "var(--reject)"
  },
  {
@@ -2219,7 +2193,7 @@ const dataStore = [
    "attribute7": "Local policy",
    "attribute7_link": "-",
    "attribute8": "09/12/2025",
-   "accession": 171,
+   "accession": 169,
    "color": "var(--specific)"
  },
  {
@@ -2232,7 +2206,7 @@ const dataStore = [
    "attribute7": "UHBW SOP - Pre-operative Echo",
    "attribute7_link": "-",
    "attribute8": "09/12/2025",
-   "accession": 172,
+   "accession": 170,
    "color": "var(--specific)"
  },
  {
@@ -2245,7 +2219,7 @@ const dataStore = [
    "attribute7": "UHBW SOP - Pre-operative Echo",
    "attribute7_link": "-",
    "attribute8": "09/12/2025",
-   "accession": 173,
+   "accession": 171,
    "color": "var(--specific)"
  },
  {
@@ -2258,7 +2232,7 @@ const dataStore = [
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "https://echotools.uk/vetting/guidelines/2024-bse-outpatients.pdf",
    "attribute8": "09/12/2025",
-   "accession": 174,
+   "accession": 172,
    "color": "var(--specific)"
  },
  {
@@ -2271,7 +2245,7 @@ const dataStore = [
    "attribute7": "UHBW SOP - Pre-operative Echo",
    "attribute7_link": "-",
    "attribute8": "09/12/2025",
-   "accession": 175,
+   "accession": 173,
    "color": "var(--specific)"
  },
  {
@@ -2284,7 +2258,7 @@ const dataStore = [
    "attribute7": "UHBW SOP - Pre-operative Echo",
    "attribute7_link": "-",
    "attribute8": "09/12/2025",
-   "accession": 176,
+   "accession": 174,
    "color": "var(--specific)"
  },
  {
@@ -2297,7 +2271,7 @@ const dataStore = [
    "attribute7": "UHBW SOP - Pre-operative Echo",
    "attribute7_link": "-",
    "attribute8": "09/12/2025",
-   "accession": 177,
+   "accession": 175,
    "color": "var(--specific)"
  },
  {
@@ -2310,7 +2284,7 @@ const dataStore = [
    "attribute7": "UHBW SOP - Pre-operative Echo",
    "attribute7_link": "-",
    "attribute8": "09/12/2025",
-   "accession": 178,
+   "accession": 176,
    "color": "var(--specific)"
  },
  {
@@ -2323,7 +2297,7 @@ const dataStore = [
    "attribute7": "UHBW SOP - Pre-operative Echo",
    "attribute7_link": "-",
    "attribute8": "09/12/2025",
-   "accession": 179,
+   "accession": 177,
    "color": "var(--specific)"
  },
  {
@@ -2336,7 +2310,7 @@ const dataStore = [
    "attribute7": "UHBW SOP - Pre-operative Echo",
    "attribute7_link": "-",
    "attribute8": "09/12/2025",
-   "accession": 180,
+   "accession": 178,
    "color": "var(--specific)"
  },
  {
@@ -2349,7 +2323,7 @@ const dataStore = [
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "https://echotools.uk/vetting/guidelines/2024-bse-outpatients.pdf",
    "attribute8": "09/12/2025",
-   "accession": 181,
+   "accession": 179,
    "color": "var(--reject)"
  },
  {
@@ -2362,7 +2336,7 @@ const dataStore = [
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "https://echotools.uk/vetting/guidelines/2024-bse-outpatients.pdf",
    "attribute8": "09/12/2025",
-   "accession": 182,
+   "accession": 180,
    "color": "var(--reject)"
  },
  {
@@ -2375,7 +2349,7 @@ const dataStore = [
    "attribute7": "UHBW SOP - Pre-operative Echo",
    "attribute7_link": "-",
    "attribute8": "09/12/2025",
-   "accession": 183,
+   "accession": 181,
    "color": "var(--reject)"
  },
  {
@@ -2388,8 +2362,86 @@ const dataStore = [
    "attribute7": "UHBW SOP - Pre-operative Echo",
    "attribute7_link": "-",
    "attribute8": "09/12/2025",
-   "accession": 184,
+   "accession": 182,
    "color": "var(--reject)"
+ },
+ {
+   "attribute1": "Pregnancy",
+   "attribute2": "Inpatient:  Any request that would otherwise be accepted for any urgency (see relevant category)",
+   "attribute3": "Inpatient - Priority",
+   "attribute4": "-",
+   "attribute5": "-",
+   "attribute6": "-",
+   "attribute7": "Local policy",
+   "attribute7_link": "-",
+   "attribute8": "14/12/2025",
+   "accession": 183,
+   "color": "var(--inpatient-priority)"
+ },
+ {
+   "attribute1": "Pregnancy",
+   "attribute2": "Outpatient: Any request that would otherwise be accepted for any urgency (see relevant category)",
+   "attribute3": "Outpatient - Urgent",
+   "attribute4": "<2 weeks",
+   "attribute5": "5",
+   "attribute6": "5",
+   "attribute7": "Local policy",
+   "attribute7_link": "-",
+   "attribute8": "14/12/2025",
+   "accession": 184,
+   "color": "var(--outpatient-urgent)"
+ },
+ {
+   "attribute1": "Pregnancy",
+   "attribute2": "Outpatient: Cardiologist request",
+   "attribute3": "Outpatient - Scheduled",
+   "attribute4": "(as requested)",
+   "attribute5": "1",
+   "attribute6": "1",
+   "attribute7": "Local policy",
+   "attribute7_link": "-",
+   "attribute8": "14/12/2025",
+   "accession": 185,
+   "color": "var(--outpatient-routine)"
+ },
+ {
+   "attribute1": "Pregnancy",
+   "attribute2": "Outpatient: Any request that would otherwise be rejected (see relevant category)",
+   "attribute3": "Not Indicated",
+   "attribute4": "-",
+   "attribute5": "-",
+   "attribute6": "-",
+   "attribute7": "Local policy",
+   "attribute7_link": "-",
+   "attribute8": "14/12/2025",
+   "accession": 186,
+   "color": "var(--reject)"
+ },
+ {
+   "attribute1": "Pregnancy / Oncology",
+   "attribute2": "Pregnancy with previous anthracycline or chest-directed radiotherapy (any dose)",
+   "attribute3": "Outpatient - Scheduled",
+   "attribute4": "First trimester",
+   "attribute5": "-",
+   "attribute6": "-",
+   "attribute7": "IGHG Cardiomyopathy Surveillance 2022",
+   "attribute7_link": "https://echotools.uk/vetting/guidelines/2022-ighg-cardiomyopathy.pdf",
+   "attribute8": "09/12/2025",
+   "accession": 187,
+   "color": "var(--outpatient-routine)"
+ },
+ {
+   "attribute1": "Pregnancy / Oncology",
+   "attribute2": "Pregnancy with previous LVSD secondary to anthracycline or chest-directed radiotherapy (any dose)",
+   "attribute3": "Outpatient - Scheduled",
+   "attribute4": "(as requested)",
+   "attribute5": "-",
+   "attribute6": "-",
+   "attribute7": "IGHG Cardiomyopathy Surveillance 2022",
+   "attribute7_link": "https://echotools.uk/vetting/guidelines/2022-ighg-cardiomyopathy.pdf",
+   "attribute8": "09/12/2025",
+   "accession": 188,
+   "color": "var(--outpatient-routine)"
  },
  {
    "attribute1": "Pulmonary Disease",
@@ -2401,33 +2453,33 @@ const dataStore = [
    "attribute7": "Local policy",
    "attribute7_link": "-",
    "attribute8": "09/12/2025",
-   "accession": 185,
+   "accession": 189,
    "color": "var(--inpatient-routine)"
  },
  {
    "attribute1": "Pulmonary Disease",
    "attribute2": "PE with supected RV impairement and/or high suspicion of developing PHT",
    "attribute3": "Outpatient - Routine",
-   "attribute4": "Routine",
+   "attribute4": "(current wait time)",
    "attribute5": "1",
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "https://echotools.uk/vetting/guidelines/2024-bse-outpatients.pdf",
    "attribute8": "09/12/2025",
-   "accession": 186,
+   "accession": 190,
    "color": "var(--outpatient-routine)"
  },
  {
    "attribute1": "Pulmonary Disease",
    "attribute2": "Persistent or positional oxygen desaturation (bubble-contrast echo to evaluate for a right to left shunt)",
    "attribute3": "Outpatient - Routine",
-   "attribute4": "Routine",
+   "attribute4": "(current wait time)",
    "attribute5": "1",
    "attribute6": "1",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "https://echotools.uk/vetting/guidelines/2024-bse-outpatients.pdf",
    "attribute8": "09/12/2025",
-   "accession": 187,
+   "accession": 191,
    "color": "var(--outpatient-routine)"
  },
  {
@@ -2440,7 +2492,7 @@ const dataStore = [
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "https://echotools.uk/vetting/guidelines/2024-bse-outpatients.pdf",
    "attribute8": "09/12/2025",
-   "accession": 188,
+   "accession": 192,
    "color": "var(--outpatient-routine)"
  },
  {
@@ -2453,7 +2505,7 @@ const dataStore = [
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "https://echotools.uk/vetting/guidelines/2024-bse-outpatients.pdf",
    "attribute8": "09/12/2025",
-   "accession": 189,
+   "accession": 193,
    "color": "var(--none)"
  },
  {
@@ -2466,7 +2518,7 @@ const dataStore = [
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "https://echotools.uk/vetting/guidelines/2024-bse-outpatients.pdf",
    "attribute8": "09/12/2025",
-   "accession": 190,
+   "accession": 194,
    "color": "var(--reject)"
  },
  {
@@ -2479,7 +2531,7 @@ const dataStore = [
    "attribute7": "Local policy",
    "attribute7_link": "-",
    "attribute8": "09/12/2025",
-   "accession": 191,
+   "accession": 195,
    "color": "var(--reject)"
  },
  {
@@ -2492,7 +2544,7 @@ const dataStore = [
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "https://echotools.uk/vetting/guidelines/2024-bse-valvedisease.pdf",
    "attribute8": "09/12/2025",
-   "accession": 192,
+   "accession": 196,
    "color": "var(--escalate)"
  },
  {
@@ -2505,7 +2557,7 @@ const dataStore = [
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "https://echotools.uk/vetting/guidelines/2024-bse-valvedisease.pdf",
    "attribute8": "09/12/2025",
-   "accession": 193,
+   "accession": 197,
    "color": "var(--escalate)"
  },
  {
@@ -2518,7 +2570,7 @@ const dataStore = [
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "https://echotools.uk/vetting/guidelines/2024-bse-valvedisease.pdf",
    "attribute8": "09/12/2025",
-   "accession": 194,
+   "accession": 198,
    "color": "var(--outpatient-routine)"
  },
  {
@@ -2531,7 +2583,7 @@ const dataStore = [
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "https://echotools.uk/vetting/guidelines/2024-bse-valvedisease.pdf",
    "attribute8": "09/12/2025",
-   "accession": 195,
+   "accession": 199,
    "color": "var(--outpatient-routine)"
  },
  {
@@ -2544,7 +2596,7 @@ const dataStore = [
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "https://echotools.uk/vetting/guidelines/2024-bse-valvedisease.pdf",
    "attribute8": "09/12/2025",
-   "accession": 196,
+   "accession": 200,
    "color": "var(--reject)"
  },
  {
@@ -2557,7 +2609,7 @@ const dataStore = [
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "https://echotools.uk/vetting/guidelines/2024-bse-valvedisease.pdf",
    "attribute8": "09/12/2025",
-   "accession": 197,
+   "accession": 201,
    "color": "var(--escalate)"
  },
  {
@@ -2570,7 +2622,7 @@ const dataStore = [
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "https://echotools.uk/vetting/guidelines/2024-bse-valvedisease.pdf",
    "attribute8": "09/12/2025",
-   "accession": 198,
+   "accession": 202,
    "color": "var(--escalate)"
  },
  {
@@ -2583,7 +2635,7 @@ const dataStore = [
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "https://echotools.uk/vetting/guidelines/2024-bse-valvedisease.pdf",
    "attribute8": "09/12/2025",
-   "accession": 199,
+   "accession": 203,
    "color": "var(--outpatient-routine)"
  },
  {
@@ -2596,7 +2648,7 @@ const dataStore = [
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "https://echotools.uk/vetting/guidelines/2024-bse-valvedisease.pdf",
    "attribute8": "09/12/2025",
-   "accession": 200,
+   "accession": 204,
    "color": "var(--outpatient-routine)"
  },
  {
@@ -2609,7 +2661,7 @@ const dataStore = [
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "https://echotools.uk/vetting/guidelines/2024-bse-valvedisease.pdf",
    "attribute8": "09/12/2025",
-   "accession": 201,
+   "accession": 205,
    "color": "var(--outpatient-routine)"
  },
  {
@@ -2622,7 +2674,7 @@ const dataStore = [
    "attribute7": "Local policy",
    "attribute7_link": "-",
    "attribute8": "09/12/2025",
-   "accession": 202,
+   "accession": 206,
    "color": "var(--specific)"
  },
  {
@@ -2635,7 +2687,7 @@ const dataStore = [
    "attribute7": "Local policy",
    "attribute7_link": "-",
    "attribute8": "09/12/2025",
-   "accession": 203,
+   "accession": 207,
    "color": "var(--reject)"
  },
  {
@@ -2648,7 +2700,7 @@ const dataStore = [
    "attribute7": "Local policy",
    "attribute7_link": "-",
    "attribute8": "09/12/2025",
-   "accession": 204,
+   "accession": 208,
    "color": "var(--inpatient-priority)"
  },
  {
@@ -2661,7 +2713,7 @@ const dataStore = [
    "attribute7": "Local policy",
    "attribute7_link": "-",
    "attribute8": "09/12/2025",
-   "accession": 205,
+   "accession": 209,
    "color": "var(--inpatient-routine)"
  },
  {
@@ -2674,33 +2726,33 @@ const dataStore = [
    "attribute7": "Local policy",
    "attribute7_link": "-",
    "attribute8": "09/12/2025",
-   "accession": 206,
+   "accession": 210,
    "color": "var(--inpatient-routine)"
  },
  {
    "attribute1": "Syncope",
    "attribute2": "Outpatient: Syncope with exercise or documented VT/VF",
    "attribute3": "Outpatient - Urgent",
-   "attribute4": "Urgent (<2 weeks)",
+   "attribute4": "<2 weeks",
    "attribute5": "5",
    "attribute6": "5",
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "https://echotools.uk/vetting/guidelines/2024-bse-outpatients.pdf",
    "attribute8": "09/12/2025",
-   "accession": 207,
+   "accession": 211,
    "color": "var(--outpatient-urgent)"
  },
  {
    "attribute1": "Syncope / Palpitations",
    "attribute2": "Syncope or palpitations with known mild Aortic or Mitral valve lesion - no echo in 12 months",
    "attribute3": "Outpatient - Routine",
-   "attribute4": "Routine",
+   "attribute4": "(current wait time)",
    "attribute5": "1",
    "attribute6": "1",
    "attribute7": "Local policy",
    "attribute7_link": "-",
    "attribute8": "09/12/2025",
-   "accession": 208,
+   "accession": 212,
    "color": "var(--outpatient-routine)"
  },
  {
@@ -2713,7 +2765,7 @@ const dataStore = [
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "https://echotools.uk/vetting/guidelines/2024-bse-outpatients.pdf",
    "attribute8": "09/12/2025",
-   "accession": 209,
+   "accession": 213,
    "color": "var(--cdc)"
  },
  {
@@ -2726,7 +2778,7 @@ const dataStore = [
    "attribute7": "Local policy",
    "attribute7_link": "-",
    "attribute8": "09/12/2025",
-   "accession": 210,
+   "accession": 214,
    "color": "var(--cdc)"
  },
  {
@@ -2739,7 +2791,7 @@ const dataStore = [
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "https://echotools.uk/vetting/guidelines/2024-bse-outpatients.pdf",
    "attribute8": "09/12/2025",
-   "accession": 211,
+   "accession": 215,
    "color": "var(--reject)"
  },
  {
@@ -2752,7 +2804,7 @@ const dataStore = [
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "https://echotools.uk/vetting/guidelines/2024-bse-outpatients.pdf",
    "attribute8": "09/12/2025",
-   "accession": 212,
+   "accession": 216,
    "color": "var(--reject)"
  },
  {
@@ -2765,7 +2817,7 @@ const dataStore = [
    "attribute7": "2024 BSE Poster - Outpatient Triage",
    "attribute7_link": "https://echotools.uk/vetting/guidelines/2024-bse-outpatients.pdf",
    "attribute8": "09/12/2025",
-   "accession": 213,
+   "accession": 217,
    "color": "var(--reject)"
  },
  {
@@ -2778,7 +2830,7 @@ const dataStore = [
    "attribute7": "Local policy",
    "attribute7_link": "-",
    "attribute8": "09/12/2025",
-   "accession": 214,
+   "accession": 218,
    "color": "var(--reject)"
  },
  {
@@ -2791,7 +2843,7 @@ const dataStore = [
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "https://echotools.uk/vetting/guidelines/2024-bse-valvedisease.pdf",
    "attribute8": "09/12/2025",
-   "accession": 215,
+   "accession": 219,
    "color": "var(--escalate)"
  },
  {
@@ -2804,7 +2856,7 @@ const dataStore = [
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "https://echotools.uk/vetting/guidelines/2024-bse-valvedisease.pdf",
    "attribute8": "09/12/2025",
-   "accession": 216,
+   "accession": 220,
    "color": "var(--escalate)"
  },
  {
@@ -2817,7 +2869,7 @@ const dataStore = [
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "https://echotools.uk/vetting/guidelines/2024-bse-valvedisease.pdf",
    "attribute8": "09/12/2025",
-   "accession": 217,
+   "accession": 221,
    "color": "var(--outpatient-routine)"
  },
  {
@@ -2830,7 +2882,7 @@ const dataStore = [
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "https://echotools.uk/vetting/guidelines/2024-bse-valvedisease.pdf",
    "attribute8": "09/12/2025",
-   "accession": 218,
+   "accession": 222,
    "color": "var(--outpatient-routine)"
  },
  {
@@ -2843,7 +2895,7 @@ const dataStore = [
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "https://echotools.uk/vetting/guidelines/2024-bse-valvedisease.pdf",
    "attribute8": "09/12/2025",
-   "accession": 219,
+   "accession": 223,
    "color": "var(--outpatient-routine)"
  },
  {
@@ -2856,7 +2908,7 @@ const dataStore = [
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "https://echotools.uk/vetting/guidelines/2024-bse-valvedisease.pdf",
    "attribute8": "09/12/2025",
-   "accession": 220,
+   "accession": 224,
    "color": "var(--reject)"
  },
  {
@@ -2869,7 +2921,7 @@ const dataStore = [
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "https://echotools.uk/vetting/guidelines/2024-bse-valvedisease.pdf",
    "attribute8": "09/12/2025",
-   "accession": 221,
+   "accession": 225,
    "color": "var(--escalate)"
  },
  {
@@ -2882,7 +2934,7 @@ const dataStore = [
    "attribute7": "2024 BSE Poster - Valve Disease",
    "attribute7_link": "https://echotools.uk/vetting/guidelines/2024-bse-valvedisease.pdf",
    "attribute8": "09/12/2025",
-   "accession": 222,
+   "accession": 226,
    "color": "var(--escalate)"
  },
  {
@@ -2895,7 +2947,7 @@ const dataStore = [
    "attribute7": "Local policy",
    "attribute7_link": "-",
    "attribute8": "09/12/2025",
-   "accession": 223,
+   "accession": 227,
    "color": "var(--inpatient-priority)"
  },
  {
@@ -2908,7 +2960,7 @@ const dataStore = [
    "attribute7": "Local policy",
    "attribute7_link": "-",
    "attribute8": "09/12/2025",
-   "accession": 224,
+   "accession": 228,
    "color": "var(--outpatient-routine)"
  }
 ];
